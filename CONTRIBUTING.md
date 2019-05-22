@@ -13,29 +13,22 @@ This project is released with a [Code of Conduct](CODE_OF_CONDUCT.md). By contri
 
 ## Submitting an Issue
 
-1. In the repository navigation, click "Issues"
-1. Click "New issue"
-1. Choose "Bug Report" to create a report to help us improve or "Feature Request" to suggest an idea for the project
-1. Use the provided template to create your issue
-
-### More Information
-
-- [Creating an issue](https://help.github.com/en/articles/creating-an-issue)
+Please submit all issues to our [JIRA instance](https://q-ctrl.atlassian.net/secure/CreateIssue.jspa)
 
 ## Submitting a Pull Request
 
-1. Fork and clone the repository
+1. Clone the repository and create a new branch
 1. Configure and install any dependencies
 1. Make sure the tests pass on your machine
-1. Create a new branch
 1. Make your change, add tests, and make sure the tests still pass
-1. Push to your fork and submit a pull request
+1. Push to your branch and submit a pull request
+1. Add reviewers
 1. Pat yourself on the back and wait for your pull request to be reviewed and merged
 
 Here are a few things you can do that will increase the likelihood of your pull request being accepted:
 
 - Follow our [Coding Standards](#coding-standards)
-- Spell variable names out in full using American English spelling (e.g. `optimized_pulse`, **NOT** `op`)
+- Spell variable names out in full using Australian English spelling (e.g. `optimized_pulse`, **NOT** `op`)
 - For variable names that are more than three words, use an acronym (e.g. `cpmg`, **NOT** `carr_purcell_meiboom_gill`)
 - Write tests and make sure they **all** pass (e.g. `pytest`)
 - Lint your code using the file supplied in the project (e.g. `pytlint directoryname --rcfile=.pylintrc`)
