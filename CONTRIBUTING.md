@@ -18,7 +18,7 @@ This project is released with a [Code of Conduct](CODE_OF_CONDUCT.md). By contri
 1. Choose "Bug Report" to create a report to help us improve or "Feature Request" to suggest an idea for the project
 1. Use the provided template to create your issue
 
-### More Information
+### More Information on Submitting an Issue
 
 - [Creating an issue](https://help.github.com/en/articles/creating-an-issue)
 
@@ -42,17 +42,18 @@ Here are a few things you can do that will increase the likelihood of your pull 
 - Keep your change as focused as possible - if there are multiple changes you would like to make that are not dependent upon each other - submit them as separate pull requests
 - Write a [good commit message](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
 
-### More Information
+### More Information on Pull Requests
 
 - [About pull requests](https://help.github.com/en/articles/about-pull-requests)
 - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
 
 ## Coding Standards
 
-| Language   | Style                                              | Docstrings                                                        | Testing                       | Linting                           |
-|------------|----------------------------------------------------|-------------------------------------------------------------------|-------------------------------|-----------------------------------|
-| JavaScript | [Prettier](https://prettier.io/)                   | [JSDoc](http://usejsdoc.org/)                                     | [Jest](https://jestjs.io/)    | [ESLint](https://eslint.org/)     |
-| Python     | [PEP 8](https://www.python.org/dev/peps/pep-0008/) | [numpydoc](https://numpydoc.readthedocs.io/en/latest/format.html) | [pytest](https://pytest.org/) | [Pylint](https://www.pylint.org/) |
+| Language   | Style                                              | Docstrings                                                        | Testing                       | Linting                                                       |
+| ---------- | -------------------------------------------------- | ----------------------------------------------------------------- | ----------------------------- | ------------------------------------------------------------- |
+| JavaScript | [Prettier](https://prettier.io/)                   | [JSDoc](http://usejsdoc.org/)                                     | [Jest](https://jestjs.io/)    | [ESLint](https://eslint.org/)                                 |
+| Python     | [PEP 8](https://www.python.org/dev/peps/pep-0008/) | [numpydoc](https://numpydoc.readthedocs.io/en/latest/format.html) | [pytest](https://pytest.org/) | [Pylint](https://www.pylint.org/)                             |
+| Markdown   | [Prettier](https://prettier.io/)                   | N/A                                                               | N/A                           | [Markdownlint](https://github.com/markdownlint/markdownlint/) |
 
 ## Resources
 
