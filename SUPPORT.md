@@ -1,4 +1,4 @@
-# Support
+# Support #
 
 - [Q-CTRL Docs](https://docs.q-ctrl.com/)
 - [Q-CTRL Help](https://help.q-ctrl.com/)
