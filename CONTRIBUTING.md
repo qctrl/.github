@@ -3,8 +3,8 @@
 Contributions to this project are released to the public under the project's
 open source license.
 
-This project is released with a [Code of Conduct](CODE_OF_CONDUCT.md).
-By contributing to this project you agree to abide by its terms.
+This project is released with a [Code of Conduct](CODE_OF_CONDUCT.md). By
+contributing to this project you agree to abide by its terms.
 
 ## Table of Contents
 
@@ -17,8 +17,8 @@ By contributing to this project you agree to abide by its terms.
 
 1. In the repository navigation, click "Issues"
 1. Click "New issue"
-1. Choose "Bug Report" to create a report to help us improve or
-   "Feature Request" to suggest an idea for the project
+1. Choose "Bug Report" to create a report to help us improve or "Feature
+   Request" to suggest an idea for the project
 1. Use the provided template to create your issue
 
 ### More Information on Submitting an Issue
@@ -40,18 +40,18 @@ Here are a few things you can do that will increase the likelihood of your pull
 request being accepted:
 
 - Follow our [Coding Standards](#coding-standards)
-- Spell variable names out in full using American English spelling
-  (e.g. `optimized_pulse`, **NOT** `op`)
-- For variable names that are more than three words, use an acronym
-  (e.g. `cpmg`, **NOT** `carr_purcell_meiboom_gill`)
+- Spell variable names out in full using American English spelling (e.g.
+  `optimized_pulse`, **NOT** `op`)
+- For variable names that are more than three words, use an acronym (e.g.
+  `cpmg`, **NOT** `carr_purcell_meiboom_gill`)
 - Write tests and make sure they **all** pass (e.g. `pytest`)
-- Lint your code using the file supplied in the project
-  (e.g. `pytlint directoryname --rcfile=.pylintrc`)
+- Lint your code using the file supplied in the project (e.g. `pytlint
+  directoryname --rcfile=.pylintrc`)
 - Keep your change as focused as possible - if there are multiple changes you
-  would
-  like to make that are not dependent upon each other - submit them as separate
-  pull requests
-- Write a [good commit message](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
+  would like to make that are not dependent upon each other - submit them as
+  separate pull requests
+- Write a [good commit
+  message](<http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)>
 
 ### More Information on Pull Requests
 
@@ -69,6 +69,7 @@ request being accepted:
 
 ## Resources
 
-- [How to Contribute to Open Source](https://opensource.guide/how-to-contribute/)
+- [How to Contribute to Open
+  Source](<https://opensource.guide/how-to-contribute/)>
 - [Code of Conduct](CODE_OF_CONDUCT.md)
 - [Support](SUPPORT.md)
