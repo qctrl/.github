@@ -51,7 +51,7 @@ request being accepted:
   would like to make that are not dependent upon each other - submit them as
   separate pull requests
 - Write a [good commit
-  message](<http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)>
+  message](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
 
 ### More Information on Pull Requests
 
@@ -60,16 +60,16 @@ request being accepted:
 
 ## Coding Standards
 
-| Language   | Style                                              | Docstrings                                                        | Testing                       | Linting                                                       |
-| ---------- | -------------------------------------------------- | ----------------------------------------------------------------- | ----------------------------- | ------------------------------------------------------------- |
-| JavaScript | [Prettier](https://prettier.io/)                   | [JSDoc](http://usejsdoc.org/)                                     | [Jest](https://jestjs.io/)    | [ESLint](https://eslint.org/)                                 |
-| Python     | [PEP 8](https://www.python.org/dev/peps/pep-0008/) | [numpydoc](https://numpydoc.readthedocs.io/en/latest/format.html) | [pytest](https://pytest.org/) | [Pylint](https://www.pylint.org/)                             |
-| Markdown   | [Prettier](https://prettier.io/)                   | N/A                                                               | N/A                           | [Markdownlint](https://github.com/markdownlint/markdownlint/) |
-| Jekyll     | [Prettier](https://prettier.io/)                   | N/A                                                               | N/A                           | [HTMLProofer](https://github.com/gjtorikian/html-proofer/)    |
+| Language   | Style                                              | Docstrings                                                        | Testing                       | Linting                                                                                    |
+| ---------- | -------------------------------------------------- | ----------------------------------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------- |
+| JavaScript | [Prettier](https://prettier.io/)                   | [JSDoc](http://usejsdoc.org/)                                     | [Jest](https://jestjs.io/)                                 | [ESLint](https://eslint.org/)                                 |
+| Python     | [PEP 8](https://www.python.org/dev/peps/pep-0008/) | [numpydoc](https://numpydoc.readthedocs.io/en/latest/format.html) | [pytest](https://pytest.org/)                              | [Pylint](https://www.pylint.org/)                             |
+| Markdown   | [Prettier](https://prettier.io/)                   | N/A                                                               | N/A                                                        | [Markdownlint](https://github.com/markdownlint/markdownlint/) |
+| Jekyll     | [Prettier](https://prettier.io/)                   | N/A                                                               | [HTMLProofer](https://github.com/gjtorikian/html-proofer/) | N/A                                                           |
 
 ## Resources
 
 - [How to Contribute to Open
-  Source](<https://opensource.guide/how-to-contribute/)>
+  Source](https://opensource.guide/how-to-contribute/)
 - [Code of Conduct](CODE_OF_CONDUCT.md)
 - [Support](SUPPORT.md)
