@@ -45,7 +45,7 @@ request being accepted:
 - For variable names that are more than three words, use an acronym (e.g.
   `cpmg`, **NOT** `carr_purcell_meiboom_gill`)
 - Write tests and make sure they **all** pass (e.g. `pytest`)
-- Lint your code using the file supplied in the project (e.g. `pytlint
+- Lint your code using the file supplied in the project (e.g. `pylint
   directoryname --rcfile=.pylintrc`)
 - Keep your change as focused as possible - if there are multiple changes you
   would like to make that are not dependent upon each other - submit them as
