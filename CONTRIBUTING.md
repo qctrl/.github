@@ -53,6 +53,14 @@ request being accepted:
 - Write a [good commit
   message](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
 
+Note that we prefer squash merges from short-lived branches (e.g.
+`feature/ABC-123`) to long-lived branches (e.g. `master`). If a project has both
+`development` and `master` branches, we prefer the default merge commit option
+for merges between them.
+
+When squashing commits, lines that add little meaning to the overall commit
+message (e.g. "Oops missed another instance") should be removed.
+
 ### More Information on Pull Requests
 
 - [About pull requests](https://help.github.com/en/articles/about-pull-requests)
