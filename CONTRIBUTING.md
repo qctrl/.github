@@ -11,6 +11,7 @@ contributing to this project you agree to abide by its terms.
 - [Submitting an Issue](#submitting-an-issue)
 - [Submitting a Pull Request](#submitting-a-pull-request)
 - [Coding Standards](#coding-standards)
+- [Formatting your README](#formatting-your-readme)
 - [Resources](#resources)
 
 ## Submitting an Issue
@@ -75,12 +76,11 @@ message (e.g. "Oops missed another instance") should be removed.
 | Markdown   | [Prettier](https://prettier.io/)                   | N/A                                                               | N/A                                                        | [Markdownlint](https://github.com/markdownlint/markdownlint/) |
 | Jekyll     | [Prettier](https://prettier.io/)                   | N/A                                                               | [HTMLProofer](https://github.com/gjtorikian/html-proofer/) | N/A                                                           |
 
-## README 
+## Formatting your README
 
-Follow the [Github guide on how to write and format a README](https://github.com/qctrl/.github/edit/master/CONTRIBUTING.md).
+Follow the GitHub Guide on [Formatting your README](https://guides.github.com/features/wikis/#Formatting-a-readme).
 
-The only caveat is the installation instructions section. This should document how and end user would use the product. Documentation on setting up a development environment is typically different from team to team, and hence should be documented in internal team documentation.
-
+The only caveat is the *Installation* section. This should document how an end-user would use the product. Documentation on setting up a development environment is typically different from team to team and hence should be documented in internal team documentation.
 
 ## Resources
 
