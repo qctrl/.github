@@ -15,6 +15,8 @@ contributing to this project you agree to abide by its terms.
 
 ## Submitting an Issue
 
+If you are a member of Q-CTRL please submit new issues/bugs to the appropriate Jira project. If you are extenal to the company:
+
 1. In the repository navigation, click "Issues"
 1. Click "New issue"
 1. Choose "Bug Report" to create a report to help us improve or "Feature
