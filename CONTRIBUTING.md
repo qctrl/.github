@@ -75,6 +75,13 @@ message (e.g. "Oops missed another instance") should be removed.
 | Markdown   | [Prettier](https://prettier.io/)                   | N/A                                                               | N/A                                                        | [Markdownlint](https://github.com/markdownlint/markdownlint/) |
 | Jekyll     | [Prettier](https://prettier.io/)                   | N/A                                                               | [HTMLProofer](https://github.com/gjtorikian/html-proofer/) | N/A                                                           |
 
+## README 
+
+Follow the [Github guide on how to write and format a README](https://github.com/qctrl/.github/edit/master/CONTRIBUTING.md).
+
+The only caveat is the installation instructions section. This should document how and end user would use the product. Documentation on setting up a development environment is typically different from team to team, and hence should be documented in internal team documentation.
+
+
 ## Resources
 
 - [How to Contribute to Open
