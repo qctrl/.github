@@ -1,6 +1,8 @@
 # Support
 
-- [Q-CTRL Docs](https://docs.q-ctrl.com/)
-- [Q-CTRL Help](https://help.q-ctrl.com/)
-- [Q-CTRL Status](https://status.q-ctrl.com/)
-- [Contact Q-CTRL](https://q-ctrl.com/contact)
+- [Documentation](https://docs.q-ctrl.com/)
+- [Terms of service](https://q-ctrl.com/terms)
+- [Privacy policy](https://q-ctrl.com/privacy)
+- [Security policy](https://q-ctrl.com/security)
+- [Status](https://status.q-ctrl.com/)
+- [Contact](https://q-ctrl.com/contact)
