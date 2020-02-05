@@ -64,4 +64,5 @@ When squashing commits, lines that add little meaning to the overall commit mess
 
 - [How to contribute to open source](https://opensource.guide/how-to-contribute/)
 - [Code of conduct](CODE_OF_CONDUCT.md)
+- [Formatting your README](https://guides.github.com/features/wikis/#Formatting-a-readme)
 - [Support](SUPPORT.md)
