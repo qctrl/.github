@@ -1,13 +1,15 @@
 # Contributing
 
-Contributions to this project are released to the public under the project's open source license.
+This guide to contributing to [Q-CTRL](https://q-ctrl.com/) projects is intended for all contributors - from external open source developers, outside collaborators, and even members of the [@qctrl](https://github.com/qctrl) team.
 
-This project is released with a [code of conduct](CODE_OF_CONDUCT.md). By contributing to this project you agree to abide by its terms.
+As a contributor, you agree to abide by the terms of the projects specific license and our [code of conduct](CODE_OF_CONDUCT.md).
 
 ## Table of contents
 
 - [Submitting an issue](#submitting-an-issue)
 - [Submitting a pull request](#submitting-a-pull-request)
+- [Documentation standards](#documentation-standards)
+- [Licensing standards](#licensing-standards)
 - [Coding standards](#coding-standards)
 - [Resources](#resources)
 
@@ -34,7 +36,7 @@ This project is released with a [code of conduct](CODE_OF_CONDUCT.md). By contri
 
 Here are a few things you can do that will increase the likelihood of your pull request being accepted:
 
-- Follow our [coding standards](#coding-standards)
+- Follow the [coding standards](#coding-standards)
 - Spell variable names out in full using American English spelling (e.g. `optimized_pulse`, **NOT** `op`)
 - For variable names that are more than three words, use an acronym (e.g. `cpmg`, **NOT** `carr_purcell_meiboom_gill`)
 - Write tests and make sure they **all** pass (e.g. `pytest`)
@@ -42,14 +44,56 @@ Here are a few things you can do that will increase the likelihood of your pull 
 - Keep your change as focused as possible (if there are multiple changes you would like to make that are not dependent upon each other, submit them as separate pull requests)
 - Write a [good commit message](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
 
-Note that we prefer squash merges from short-lived branches (e.g. `feature/ABC-123`) to long-lived branches (e.g. `master`). If a project has both `development` and `master` branches, we prefer the default merge commit option for merges between them.
+Note:
 
-When squashing commits, lines that add little meaning to the overall commit message (e.g. "Oops missed another instance") should be removed.
+- We prefer squash merges from short-lived branches (e.g. `feature/ABC-123`) to long-lived branches (e.g. `master`)
+- If a project has both `development` and `master` branches, we prefer the default merge commit option for merges between them
+- When squashing commits, lines that add little meaning to the overall commit message (e.g. "Oops missed another instance") should be removed
 
 ### More information on pull requests
 
 - [About pull requests](https://help.github.com/en/articles/about-pull-requests)
 - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
+
+## Documentation standards
+
+Q-CTRL projects have two types of documentation:
+
+1. [Contributor documentation](#contributor-documentation)
+1. [User documentation](#user-documentation)
+
+### Contributor documentation
+
+Contributor documentation is found in the README file and contains only the necessary information for a developer to get started contributing to the project. Q-CTRL follows the standard specified in the GitHub guide [Formatting your README](https://guides.github.com/features/wikis/#Formatting-a-readme).
+
+### User documentation
+
+User documentation is found on the [Q-CTRL Documentation](https://docs.q-ctrl.com/) website and contains:
+
+- **User guides:** Step-by-step instructions on how to get started and begin using the features of the software
+- **References:** Module, class and method references in support of the user guides
+- **Wiki:** Comprehensive knowledge base of quantum control theory in support of both user guides and references
+
+Any means by which a user accesses the platform (e.g. the [Q-CTRL Python package](https://pypi.org/project/qctrl/)) is supported by user documentation with the aim of making it easy and intuitive to use the software.
+
+### More information on documentation standards
+
+- [Formatting your README](https://guides.github.com/features/wikis/#Formatting-a-readme)
+- [README template](.github/README_template.md)
+
+## Licensing standards
+
+Q-CTRL projects have one of three types of licensing applied:
+
+1. Commercial
+1. Open source
+1. Unlicensed
+
+| Type        | Description                                                                                        | License                                                                                                                               |
+|-------------|----------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
+| Commercial  | The software is developed and distributed by Q-CTRL and is commercial in nature                    | Q-CTRL Terms of service [HTML](https://q-ctrl.com/terms) [Text](https://q-ctrl.com/terms.txt)                                         |
+| Open source | The software is developed and distributed by Q-CTRL, is open source, and contributions are welcome | Apache License, Version 2.0 [HTML](http://www.apache.org/licenses/LICENSE-2.0) [Text](http://www.apache.org/licenses/LICENSE-2.0.txt) |
+| Unlicensed  | The software is developed by Q-CTRL and is not distributed                                         | N/A                                                                                                                                   |
 
 ## Coding standards
 
@@ -63,6 +107,5 @@ When squashing commits, lines that add little meaning to the overall commit mess
 ## Resources
 
 - [How to contribute to open source](https://opensource.guide/how-to-contribute/)
-- [Formatting your README](https://guides.github.com/features/wikis/#Formatting-a-readme)
 - [Code of conduct](CODE_OF_CONDUCT.md)
 - [Support](SUPPORT.md)
