@@ -73,7 +73,7 @@ User documentation is found on the [Q-CTRL Documentation](https://docs.q-ctrl.co
 ### More information on documentation standards
 
 - [Formatting your README](https://guides.github.com/features/wikis/#Formatting-a-readme)
-- [README template](.github/README_template.md)
+- [Q-CTRL template repository](https://github.com/qctrl/template)
 
 ## Licensing standards
 
