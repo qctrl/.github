@@ -64,7 +64,7 @@ Q-CTRL projects have two types of documentation:
 
 ### Contributor documentation
 
-Contributor documentation is found in the README file and contains only the necessary information for a developer to get started contributing to the project. Q-CTRL follows the standard specified in the [Formatting your README](https://guides.github.com/features/wikis/#Formatting-a-readme) GitHub guide.
+Contributor documentation is found in the README file and contains only the necessary information for a developer to get started contributing to the project. Q-CTRL follows the standard specified in the [Formatting your README](https://guides.github.com/features/wikis/#Formatting-a-readme) GitHub guide. The README file in the [Q-CTRL template repository](https://github.com/qctrl/template) contains the prescribed structure and instructions on how to apply this standard.
 
 ### User documentation
 
