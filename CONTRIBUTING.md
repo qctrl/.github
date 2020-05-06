@@ -64,17 +64,11 @@ Q-CTRL projects have two types of documentation:
 
 ### Contributor documentation
 
-Contributor documentation is found in the README file and contains only the necessary information for a developer to get started contributing to the project. Q-CTRL follows the standard specified in the GitHub guide [Formatting your README](https://guides.github.com/features/wikis/#Formatting-a-readme).
+Contributor documentation is found in the README file and contains only the necessary information for a developer to get started contributing to the project. Q-CTRL follows the standard specified in the [Formatting your README](https://guides.github.com/features/wikis/#Formatting-a-readme) GitHub guide.
 
 ### User documentation
 
-User documentation is found on the [Q-CTRL Documentation](https://docs.q-ctrl.com/) website and contains:
-
-- **User guides:** Step-by-step instructions on how to get started and begin using the features of the software
-- **References:** Module, class and method references in support of the user guides
-- **Wiki:** Comprehensive knowledge base of quantum control theory in support of both user guides and references
-
-Any means by which a user accesses the platform (e.g. the [Q-CTRL Python package](https://pypi.org/project/qctrl/)) is supported by user documentation with the aim of making it easy and intuitive to use the software.
+User documentation is found on the [Q-CTRL Documentation](https://docs.q-ctrl.com/) website. Any means by which a user accesses the platform is supported by user documentation with the aim of making it easy and intuitive to use the software.
 
 ### More information on documentation standards
 
