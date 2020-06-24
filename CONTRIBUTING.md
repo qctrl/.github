@@ -37,8 +37,6 @@ As a contributor, you agree to abide by the terms of the projects specific licen
 Here are a few things you can do that will increase the likelihood of your pull request being accepted:
 
 - Follow the [coding standards](#coding-standards)
-- Spell variable names out in full using American English spelling (e.g. `optimized_pulse`, **NOT** `op`)
-- For variable names that are more than three words, use an acronym (e.g. `cpmg`, **NOT** `carr_purcell_meiboom_gill`)
 - Write tests and make sure they **all** pass (e.g. `pytest`)
 - Lint your code using the file supplied in the project (e.g. `pylint directoryname --rcfile=.pylintrc`)
 - Keep your change as focused as possible (if there are multiple changes you would like to make that are not dependent upon each other, submit them as separate pull requests)
@@ -91,12 +89,30 @@ Q-CTRL projects have one of three types of licensing applied:
 
 ## Coding standards
 
+In general, coding standards should be obtained from the following hierarchy:
+1. Framework
+1. Language
+1. Q-CTRL
+1. Team
+1. Package
+
+When looking for a standard to follow for a design/syntax decision, start at the top and work down:
+if the relevant framework specifies a standard, use that; otherwise, if the language specifies a
+standard (see the table below), use that; and so on.
+
+### Language standards
+
 | Language   | Style                                              | Docstrings                                                        | Testing                                                    | Linting                                                       |
 | ---------- | -------------------------------------------------- | ----------------------------------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------- |
 | HTML       | [Prettier](https://prettier.io/)                   | N/A                                                               | [HTMLProofer](https://github.com/gjtorikian/html-proofer/) | N/A                                                           |
 | JavaScript | [Prettier](https://prettier.io/)                   | [JSDoc](http://usejsdoc.org/)                                     | [Jest](https://jestjs.io/)                                 | [ESLint](https://eslint.org/)                                 |
 | Markdown   | [Prettier](https://prettier.io/)                   | N/A                                                               | N/A                                                        | [Markdownlint](https://github.com/markdownlint/markdownlint/) |
 | Python     | [PEP 8](https://www.python.org/dev/peps/pep-0008/) | [numpydoc](https://numpydoc.readthedocs.io/en/latest/format.html) | [pytest](https://pytest.org/)                              | [Pylint](https://www.pylint.org/)                             |
+
+### Q-CTRL standards
+
+- Spell variable names out in full using American English spelling (e.g. `optimized_pulse`, **NOT** `op`)
+- For variable names that are more than three words, use an acronym (e.g. `cpmg`, **NOT** `carr_purcell_meiboom_gill`)
 
 ## Resources
 
