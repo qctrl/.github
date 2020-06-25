@@ -93,12 +93,11 @@ In general, coding standards should be obtained from the following hierarchy:
 1. Framework
 1. Language
 1. Q-CTRL
-1. Team
-1. Package
 
-When looking for a standard to follow for a design/syntax decision, start at the top and work down:
-if the relevant framework specifies a standard, use that; otherwise, if the language specifies a
-standard (see the table below), use that; and so on.
+When looking for a standard to follow for a design/syntax decision, start at the
+top and work down: if the relevant framework specifies a standard, use that;
+otherwise, if the language specifies a standard (see below), use that;
+otherwise, fall back to the Q-CTRL standard (see below).
 
 ### Language standards
 
