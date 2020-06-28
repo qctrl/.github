@@ -110,8 +110,9 @@ otherwise, fall back to the Q-CTRL standard (see below).
 
 ### Q-CTRL standards
 
-- Spell variable names out in full using American English spelling (e.g. `optimized_pulse`, **NOT** `op`)
-- For variable names that are more than three words, use an acronym (e.g. `cpmg`, **NOT** `carr_purcell_meiboom_gill`)
+#### Variable naming
+- Spell variable names out in full using American English spelling (e.g. `optimized_pulse`, **NOT** `op`).
+- For variable names that are more than three words, use an acronym (e.g. `cpmg`, **NOT** `carr_purcell_meiboom_gill`).
 
 ## Resources
 
