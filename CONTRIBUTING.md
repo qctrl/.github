@@ -1,8 +1,10 @@
 # Contributing
 
-This guide to contributing to [Q-CTRL](https://q-ctrl.com/) projects is intended for all contributors - from external open source developers, outside collaborators, and even members of the [@qctrl](https://github.com/qctrl) team.
+This guide to contributing to [Q-CTRL](https://q-ctrl.com/) projects is intended for all contributors - from external open source developers, to outside collaborators and, of course, members of the [@qctrl](https://github.com/qctrl) team.
 
 As a contributor, you agree to abide by the terms of the projects specific license and our [code of conduct](CODE_OF_CONDUCT.md).
+
+The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED",  "MAY", and "OPTIONAL" in this document are to be interpreted as described in [RFC 2119](https://tools.ietf.org/html/rfc2119).
 
 ## Table of contents
 
@@ -89,17 +91,36 @@ Q-CTRL projects have one of three types of licensing applied:
 
 ## Coding standards
 
-In general, coding standards should be obtained from the following hierarchy:
-1. Framework
-1. Language
-1. Q-CTRL
+When contributing code, bear in mind that Q-CTRL values the [Three Virtues](http://threevirtues.com/). Standards for coding style SHOULD be obtained from the following hierarchy in the order specified.
 
-When looking for a standard to follow for a design/syntax decision, start at the
-top and work down: if the relevant framework specifies a standard, use that;
-otherwise, if the language specifies a standard (see below), use that;
-otherwise, fall back to the Q-CTRL standard (see below).
+1. [Third-party](#third-party)
+1. [Language](#language)
+1. [First-party](#first-party)
 
-### Language standards
+### Third-party
+
+"Third-party" refers to the third-party software you are using. For example, if you are using [Django](https://www.djangoproject.com/), you SHOULD use the [Django coding style](https://docs.djangoproject.com/en/dev/internals/contributing/writing-code/coding-style/). If:
+
+1. you are not using third-party software, or
+1. the third-party software does not specify a coding standard, or
+1. the coding standard does not specify a rule (e.g. how to name variables)
+
+then, you SHOULD move to [Language](#language).
+
+### Language
+
+"Language" refers to the language you are using and the corresponding [language standards](#language-standards). For example, if you are using [Python](https://www.python.org/), you SHOULD use the [PEP 8 -- Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/). If:
+
+1. the language does not specify a coding standard, or
+1. the coding standard does not specify a rule (e.g. how to name variables)
+
+then, you SHOULD move to [[First-party](#first-party).
+
+### First-party
+
+"First-party" refers to the [Q-CTRL coding standards](#q-ctrl-coding-standards). The Q-CTRL coding standards exist to clarify standards that are not defined in the coding standards of the third-party software or language you are using.
+
+## Language standards
 
 | Language   | Style                                              | Docstrings                                                        | Testing                                                    | Linting                                                       |
 | ---------- | -------------------------------------------------- | ----------------------------------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------- |
@@ -108,9 +129,12 @@ otherwise, fall back to the Q-CTRL standard (see below).
 | Markdown   | [Prettier](https://prettier.io/)                   | N/A                                                               | N/A                                                        | [Markdownlint](https://github.com/markdownlint/markdownlint/) |
 | Python     | [PEP 8](https://www.python.org/dev/peps/pep-0008/) | [numpydoc](https://numpydoc.readthedocs.io/en/latest/format.html) | [pytest](https://pytest.org/)                              | [Pylint](https://www.pylint.org/)                             |
 
-### Q-CTRL standards
+## Q-CTRL coding standards
+
+### Python
 
 #### Variable naming
+
 - Spell variable names out in full using American English spelling (e.g. `optimized_pulse`, **NOT** `op`).
 - For variable names that are more than three words, use an acronym (e.g. `cpmg`, **NOT** `carr_purcell_meiboom_gill`).
 
