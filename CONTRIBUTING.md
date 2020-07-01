@@ -114,7 +114,7 @@ then, you SHOULD move to [Language](#language).
 1. the language does not specify a coding standard, or
 1. the coding standard does not specify a rule (e.g. how to name variables)
 
-then, you SHOULD move to [[First-party](#first-party).
+then, you SHOULD move to [First-party](#first-party).
 
 ### First-party
 
