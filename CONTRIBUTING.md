@@ -137,14 +137,8 @@ then, you SHOULD move to [First-party](#first-party).
 - For variable names that are more than three words, use an acronym (e.g. `cpmg` and **NOT** `carr_purcell_meiboom_gill` or `carrPurcellMeiboomGill`)
 
 ### API design
-The standards here are written in the context of GraphQL APIs, but the same concepts apply equally
-to any other API with backwards-compatibility requirements.
-
-#### Don't factor client syntax into decisions about data representation
-Every client is affected by the data representation the same way, but the syntax is
-client/language-dependent. Therefore the API, which is shared by all clients, should focus on a good
-representation of the data, while the client should be responsible for adding idiomatic syntactic
-sugar.
+The standards here are written in the context of GraphQL APIs, but the same concepts apply to any
+other API, especially those with hard backwards-compatibility requirements.
 
 #### Favour type safety
 Type safety means that the data are structured in such a way that invalid data either cannot be
@@ -158,6 +152,31 @@ that `X` and `Y` are specified in the same single list)? (Note that the answer w
 since the type system isn’t expressive enough to model all constraints.)
 - Structured objects represented as unstructured objects (e.g. string representations of some
 non-string object): instead can we represent the original structured object using native types?
+
+#### When in doubt, use an enum instead of a boolean
+Unless you can be highly confident that your value can only ever have two states, it's better to err
+on the side of using an enum (to which we can add new states later) instead of a boolean. For
+example, instead of a `use_gpu` boolean, use something like a `device` enum with values `CPU` and
+`GPU`.
+
+#### When in doubt, wrap list arguments in a type
+If you're adding a new field consisting of a list of built-in types (e.g. scalars or lists),
+consider whether the list entries might ever need more data associated with them. If so, or if in
+doubt, create a new type to wrap the list entries. This adds a minor usability burden (one more
+layer of classes) but can avoid extensibility headaches in the future if we want to add new data to
+the entries.
+```
+# Hard to extend if we want to add data to each field.
+matrices: [EncodedNumpyArray]
+
+# Easy to extend if we want to add data to each field.
+input FooItem {
+    matrix: EncodedNumpyArray
+}
+items: [FooItem]
+```
+Note that for non-lists this isn’t so important, because additional fields can just be added to the
+containing type if necessary.
 
 #### When in doubt, use feature-specific types
 Creating types focused on each feature allows us to be more specific, prescriptive and type-safe
@@ -192,31 +211,11 @@ input Feature2 {
 }
 ```
 
-#### When in doubt, wrap list arguments in a type
-If you're adding a new field consisting of a list of built-in types (e.g. scalars or lists),
-consider whether the list entries might ever need more data associated with them. If so, or if in
-doubt, create a new type to wrap the list entries. This adds a minor usability burden (one more
-layer of classes) but can avoid extensibility headaches in the future if we want to add new data to
-the entries.
-```
-# Hard to extend if we want to add data to each field.
-matrices: [EncodedNumpyArray]
-
-# Easy to extend if we want to add data to each field.
-input FooItem {
-    matrix: EncodedNumpyArray
-}
-items: [FooItem]
-```
-Note that for non-lists this isn’t so important, because additional fields can just be added to the
-containing type if necessary.
-
-#### When in doubt, use an enum instead of a boolean
-Unless you can be highly confident that your value can only ever have two states, it's better to err
-on the side of using an enum (to which we can add new states later) instead of a boolean. For
-example, instead of a `use_gpu` boolean, use something like a `device` enum with values `CPU` and
-`GPU`.
-
+#### Don't factor client syntax into decisions about data representation
+Every client is affected by the data representation the same way, but the syntax is
+client/language-dependent. Therefore the API, which is shared by all clients, should focus on a good
+representation of the data, while the client should be responsible for adding idiomatic syntactic
+sugar.
 
 ## Resources
 
