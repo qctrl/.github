@@ -118,7 +118,7 @@ then, you SHOULD move to [First-party](#first-party).
 
 ### First-party
 
-"First-party" refers to the [Q-CTRL coding standards](#q-ctrl-coding-standards). The Q-CTRL coding standards exist to clarify standards that are not defined in the coding standards of the third-party software or language you are using.
+"First-party" refers to the [Q-CTRL coding standards](#q-ctrl-coding-standards). The Q-CTRL coding standards exist to specify standards that are not defined in the coding standards of the third-party software or language you are using.
 
 ## Language standards
 
@@ -131,12 +131,10 @@ then, you SHOULD move to [First-party](#first-party).
 
 ## Q-CTRL coding standards
 
-### Python
+### Variable naming
 
-#### Variable naming
-
-- Spell variable names out in full using American English spelling (e.g. `optimized_pulse`, **NOT** `op`).
-- For variable names that are more than three words, use an acronym (e.g. `cpmg`, **NOT** `carr_purcell_meiboom_gill`).
+- Spell variable names out in full using American English spelling (e.g. `optimized_pulse` or `optimizedPulse` and **NOT** `op`)
+- For variable names that are more than three words, use an acronym (e.g. `cpmg` and **NOT** `carr_purcell_meiboom_gill` or `carrPurcellMeiboomGill`)
 
 ## Resources
 
