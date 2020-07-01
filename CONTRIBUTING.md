@@ -147,24 +147,25 @@ possible ensures that the API is harder to misuse (errors can be detected before
 executed, or even before it’s written), and often leads to a more accurate representation of the
 data (since implicit relationships are made explicit). Some examples of things to watch out for:
 - Documentation specifying that certain data must be consistent in some way (e.g. "`X` must have the
-same length as `Y`"): instead can we restructure the data so that consistency is enforced (e.g. so
+same length as `Y`"): instead can the data be restructured so that consistency is enforced (e.g. so
 that `X` and `Y` are specified in the same single list)? (Note that the answer will often be "no",
 since the type system isn’t expressive enough to model all constraints.)
 - Structured objects represented as unstructured objects (e.g. string representations of some
-non-string object): instead can we represent the original structured object using native types?
+non-string object): instead can the original structured object be represented using native types?
 
 #### When in doubt, use an enum instead of a boolean
-Unless you can be highly confident that your value can only ever have two states, it's better to err
-on the side of using an enum (to which we can add new states later) instead of a boolean. For
-example, instead of a `use_gpu` boolean, use something like a `device` enum with values `CPU` and
-`GPU`.
+Boolean values are locked into having only two values forever, while enums can be extended.
+Therefore unless a value is guaranteed to have two states forever, an enum should be used instead.
+For example, a `device` enum (with values `CPU` and `GPU`) should be used instead of a `use_gpu`
+boolean.
 
 #### When in doubt, wrap list arguments in a type
-If you're adding a new field consisting of a list of built-in types (e.g. scalars or lists),
-consider whether the list entries might ever need more data associated with them. If so, or if in
-doubt, create a new type to wrap the list entries. This adds a minor usability burden (one more
-layer of classes) but can avoid extensibility headaches in the future if we want to add new data to
-the entries.
+New data cannot be added to list items of a built-in type (e.g. scalars, enums or lists), but can be
+added to list items of a custom object type (by adding the data to the object type). Therefore when
+adding a new field consisting of a list of built-in types, if there is any chance that the items
+will ever need more data associated with them, the list items should be wrapped in a new object
+type. This adds a minor usability burden (one more layer of classes) but can avoid extensibility
+headaches in the future.
 ```
 # Hard to extend if we want to add data to each field.
 matrices: [EncodedNumpyArray]
@@ -175,12 +176,12 @@ input FooItem {
 }
 items: [FooItem]
 ```
-Note that for non-lists this isn’t so important, because additional fields can just be added to the
+Note that for non-lists this isn’t as important, because additional fields can be added to the
 containing type if necessary.
 
 #### When in doubt, use feature-specific types
-Creating types focused on each feature allows us to be more specific, prescriptive and type-safe
-with our data.
+Creating new types for each feature allows types to be more specific and prescriptive (and thus
+safe).
 ```
 # Less specific, type only makes sense in context.
 input GenericData {
