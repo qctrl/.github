@@ -136,6 +136,88 @@ then, you SHOULD move to [First-party](#first-party).
 - Spell variable names out in full using American English spelling (e.g. `optimized_pulse` or `optimizedPulse` and **NOT** `op`)
 - For variable names that are more than three words, use an acronym (e.g. `cpmg` and **NOT** `carr_purcell_meiboom_gill` or `carrPurcellMeiboomGill`)
 
+### API design
+The standards here are written in the context of GraphQL APIs, but the same concepts apply equally
+to any other API with backwards-compatibility requirements.
+
+#### Don't factor client syntax into decisions about data representation
+Every client is affected by the data representation the same way, but the syntax is
+client/language-dependent. Therefore the API, which is shared by all clients, should focus on a good
+representation of the data, while the client should be responsible for adding idiomatic syntactic
+sugar.
+
+#### Favour type safety
+Type safety means that the data are structured in such a way that invalid data either cannot be
+detected by the type system or cannot be represented at all. Striving for type safety wherever
+possible ensures that the API is harder to misuse (errors can be detected before the code is
+executed, or even before it’s written), and often leads to a more accurate representation of the
+data (since implicit relationships are made explicit). Some examples of things to watch out for:
+- Documentation specifying that certain data must be consistent in some way (e.g. "`X` must have the
+same length as `Y`"): instead can we restructure the data so that consistency is enforced (e.g. so
+that `X` and `Y` are specified in the same single list)? (Note that the answer will often be "no",
+since the type system isn’t expressive enough to model all constraints.)
+- Structured objects represented as unstructured objects (e.g. string representations of some
+non-string object): instead can we represent the original structured object using native types?
+
+#### When in doubt, use feature-specific types
+Creating types focused on each feature allows us to be more specific, prescriptive and type-safe
+with our data.
+```
+# Less specific, type only makes sense in context.
+input GenericData {
+    optional_field_1: Float
+    optional_field_2: Float
+}
+input Feature1 {
+    """Must have optional_field_1 set."""
+    data: GenericData
+}
+input Feature2 {
+    """Must have optional_field_2 set."""
+    data: GenericData
+}
+
+# More specific, types make sense on their own.
+input Feature1Data {
+    field: Float!
+}
+input Feature2Data {
+    field: Float!
+}
+input Feature1 {
+    data: Feature1Data
+}
+input Feature2 {
+    data: Feature2Data
+}
+```
+
+#### When in doubt, wrap list arguments in a type
+If you're adding a new field consisting of a list of built-in types (e.g. scalars or lists),
+consider whether the list entries might ever need more data associated with them. If so, or if in
+doubt, create a new type to wrap the list entries. This adds a minor usability burden (one more
+layer of classes) but can avoid extensibility headaches in the future if we want to add new data to
+the entries.
+```
+# Hard to extend if we want to add data to each field.
+matrices: [EncodedNumpyArray]
+
+# Easy to extend if we want to add data to each field.
+input FooItem {
+    matrix: EncodedNumpyArray
+}
+items: [FooItem]
+```
+Note that for non-lists this isn’t so important, because additional fields can just be added to the
+containing type if necessary.
+
+#### When in doubt, use an enum instead of a boolean
+Unless you can be highly confident that your value can only ever have two states, it's better to err
+on the side of using an enum (to which we can add new states later) instead of a boolean. For
+example, instead of a `use_gpu` boolean, use something like a `device` enum with values `CPU` and
+`GPU`.
+
+
 ## Resources
 
 - [How to contribute to open source](https://opensource.guide/how-to-contribute/)
