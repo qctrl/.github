@@ -136,6 +136,48 @@ then, you SHOULD move to [First-party](#first-party).
 - Spell variable names out in full using American English spelling (e.g. `optimized_pulse` or `optimizedPulse` and **NOT** `op`)
 - For variable names that are more than three words, use an acronym (e.g. `cpmg` and **NOT** `carr_purcell_meiboom_gill` or `carrPurcellMeiboomGill`)
 
+## Naming conventions
+
+- **Repository** specifies the language
+- **Install** implies the language (e.g. `pip` = Python, `npm` = JavaScript, `gem` = Ruby, etc.)
+- **Import** MAY negates the `-` (e.g. see [PEP 8 -- Style Guide for Python Code: Package and Module Names](https://www.python.org/dev/peps/pep-0008/#package-and-module-names))
+
+### Python examples
+
+| **Repository** | `qctrl/python`      |
+| **Install**    | `pip install qctrl` |
+| **Import**     | `import qctrl`      |
+
+| **Repository** | `qctrl/python-api-client`      |
+| **Install**    | `pip install qctrl-api-client` |
+| **Import**     | `import qctrlapiclient`        |
+
+| **Repository** | `qctrl/python-visualizer`      |
+| **Install**    | `pip install qctrl-visualizer` |
+| **Import**     | `import qctrlvisualizer`       |
+
+| **Repository** | `qctrl/python-visualizer-django`      |
+| **Install**    | `pip install qctrl-visualizer-django` |
+| **Import**     | `import qctrlvisualizerdjango`        |
+
+### JavaScript examples
+
+| **Repository** | `qctrl/javascript`         |
+| **Install**    | `npm install @qctrl/qctrl` |
+| **Import**     | `import @qctrl/qctrl;`     |
+
+| **Repository** | `qctrl/javascript-api-client`   |
+| **Install**    | `npm install @qctrl/api-client` |
+| **Import**     | `import @qctrl/api-client;`     |
+
+| **Repository** | `qctrl/javascript-visualizer`   |
+| **Install**    | `npm install @qctrl/visualizer` |
+| **Import**     | `import @qctrl/visualizer;`     |
+
+| **Repository** | `qctrl/javascript-visualizer-react`   |
+| **Install**    | `npm install @qctrl/visualizer-react` |
+| **Import**     | `import @qctrl/visualizer-react;`     |
+
 ## Resources
 
 - [How to contribute to open source](https://opensource.guide/how-to-contribute/)
