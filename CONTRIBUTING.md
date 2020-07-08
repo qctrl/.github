@@ -86,8 +86,8 @@ Q-CTRL projects have one of three types of licensing applied:
 
 | Type        | Description                                                                                        | License                                                                                                                               |
 |-------------|----------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
-| Commercial  | The software is developed and distributed by Q-CTRL and is commercial in nature                    | Q-CTRL Terms of service [HTML](https://q-ctrl.com/terms) [Text](https://q-ctrl.com/terms.txt)                                         |
-| Open source | The software is developed and distributed by Q-CTRL, is open source, and contributions are welcome | Apache License, Version 2.0 [HTML](http://www.apache.org/licenses/LICENSE-2.0) [Text](http://www.apache.org/licenses/LICENSE-2.0.txt) |
+| Commercial  | The software is developed and distributed by Q-CTRL and is commercial in nature                    | Q-CTRL Terms of service<br>[HTML](https://q-ctrl.com/terms) / [Text](https://q-ctrl.com/terms.txt)                                         |
+| Open source | The software is developed and distributed by Q-CTRL, is open source, and contributions are welcome | Apache License, Version 2.0<br>[HTML](http://www.apache.org/licenses/LICENSE-2.0) / [Text](http://www.apache.org/licenses/LICENSE-2.0.txt) |
 | Unlicensed  | The software is developed by Q-CTRL and is not distributed                                         | N/A                                                                                                                                   |
 
 ## Coding standards
