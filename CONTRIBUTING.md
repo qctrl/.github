@@ -100,31 +100,38 @@ When contributing code, bear in mind that Q-CTRL values the [Three Virtues](http
 
 ### Third-party
 
-"Third-party" refers to the third-party software you are using. For example, if you are using [Django](https://www.djangoproject.com/), you SHOULD use the [Django coding style](https://docs.djangoproject.com/en/dev/internals/contributing/writing-code/coding-style/). If:
+"Third-party" refers to the third-party software you are using and the corresponding [Third-party standards](#third-party-standards). For example, if you are using [Django](https://www.djangoproject.com/), you MUST use the [Django coding style](https://docs.djangoproject.com/en/dev/internals/contributing/writing-code/coding-style/). If:
 
 1. you are not using third-party software, or
 1. the third-party software does not specify a coding standard, or
 1. the coding standard does not specify a rule (e.g. how to name variables)
 
-then, you SHOULD move to [Language](#language).
+then, you MUST move to [Language](#language).
 
 ### Language
 
-"Language" refers to the language you are using and the corresponding [language standards](#language-standards). For example, if you are using [Python](https://www.python.org/), you SHOULD use the [PEP 8 -- Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/). If:
+"Language" refers to the language you are using and the corresponding [language standards](#language-standards). For example, if you are using [Python](https://www.python.org/), you MUST use the [PEP 8 -- Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/). If:
 
 1. the language does not specify a coding standard, or
 1. the coding standard does not specify a rule (e.g. how to name variables)
 
-then, you SHOULD move to [First-party](#first-party).
+then, you MUST move to [First-party](#first-party).
 
 ### First-party
 
 "First-party" refers to the [Q-CTRL coding standards](#q-ctrl-coding-standards). The Q-CTRL coding standards exist to specify standards that are not defined in the coding standards of the third-party software or language you are using.
 
+## Third-party standards
+
+| Third-party | Style                                                                                                          | Docstrings                                                        | Testing                       | Linting                           |
+|-------------|----------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------|-------------------------------|-----------------------------------|
+| Django      | [Django coding style](https://docs.djangoproject.com/en/dev/internals/contributing/writing-code/coding-style/) | [numpydoc](https://numpydoc.readthedocs.io/en/latest/format.html) | [pytest](https://pytest.org/) | [Pylint](https://www.pylint.org/) |
+| React       | [Prettier](https://prettier.io/)                                                                               | [JSDoc](http://usejsdoc.org/)                                     | [Jest](https://jestjs.io/)    | [ESLint](https://eslint.org/)     |
+
 ## Language standards
 
 | Language   | Style                                              | Docstrings                                                        | Testing                                                    | Linting                                                       |
-| ---------- | -------------------------------------------------- | ----------------------------------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------- |
+|------------|----------------------------------------------------|-------------------------------------------------------------------|------------------------------------------------------------|---------------------------------------------------------------|
 | HTML       | [Prettier](https://prettier.io/)                   | N/A                                                               | [HTMLProofer](https://github.com/gjtorikian/html-proofer/) | N/A                                                           |
 | JavaScript | [Prettier](https://prettier.io/)                   | [JSDoc](http://usejsdoc.org/)                                     | [Jest](https://jestjs.io/)                                 | [ESLint](https://eslint.org/)                                 |
 | Markdown   | [Prettier](https://prettier.io/)                   | N/A                                                               | N/A                                                        | [Markdownlint](https://github.com/markdownlint/markdownlint/) |
