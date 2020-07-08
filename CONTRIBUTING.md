@@ -145,55 +145,55 @@ then, you SHOULD move to [First-party](#first-party).
 
 ### Python examples
 
-| Type           | Example             |
-|----------------|---------------------|
-| **Repository** | `qctrl/python`      |
-| **Install**    | `pip install qctrl` |
-| **Import**     | `import qctrl`      |
+| Type       | Example             |
+|------------|---------------------|
+| Repository | `qctrl/python`      |
+| Install    | `pip install qctrl` |
+| Import     | `import qctrl`      |
 
-| Type           | Example                        |
-|----------------|--------------------------------|
-| **Repository** | `qctrl/python-api-client`      |
-| **Install**    | `pip install qctrl-api-client` |
-| **Import**     | `import qctrlapiclient`        |
+| Type       | Example                        |
+|------------|--------------------------------|
+| Repository | `qctrl/python-api-client`      |
+| Install    | `pip install qctrl-api-client` |
+| Import     | `import qctrlapiclient`        |
 
-| Type           | Example                        |
-|----------------|--------------------------------|
-| **Repository** | `qctrl/python-visualizer`      |
-| **Install**    | `pip install qctrl-visualizer` |
-| **Import**     | `import qctrlvisualizer`       |
+| Type       | Example                        |
+|------------|--------------------------------|
+| Repository | `qctrl/python-visualizer`      |
+| Install    | `pip install qctrl-visualizer` |
+| Import     | `import qctrlvisualizer`       |
 
-| Type           | Example                               |
-|----------------|---------------------------------------|
-| **Repository** | `qctrl/python-visualizer-django`      |
-| **Install**    | `pip install qctrl-visualizer-django` |
-| **Import**     | `import qctrlvisualizerdjango`        |
+| Type       | Example                               |
+|------------|---------------------------------------|
+| Repository | `qctrl/python-visualizer-django`      |
+| Install    | `pip install qctrl-visualizer-django` |
+| Import     | `import qctrlvisualizerdjango`        |
 
 ### JavaScript examples
 
-| Type           | Example                    |
-|----------------|----------------------------|
-| **Repository** | `qctrl/javascript`         |
-| **Install**    | `npm install @qctrl/qctrl` |
-| **Import**     | `import @qctrl/qctrl;`     |
+| Type       | Example                    |
+|------------|----------------------------|
+| Repository | `qctrl/javascript`         |
+| Install    | `npm install @qctrl/qctrl` |
+| Import     | `import @qctrl/qctrl;`     |
 
-| Type           | Example                         |
-|----------------|---------------------------------|
-| **Repository** | `qctrl/javascript-api-client`   |
-| **Install**    | `npm install @qctrl/api-client` |
-| **Import**     | `import @qctrl/api-client;`     |
+| Type       | Example                         |
+|------------|---------------------------------|
+| Repository | `qctrl/javascript-api-client`   |
+| Install    | `npm install @qctrl/api-client` |
+| Import     | `import @qctrl/api-client;`     |
 
-| Type           | Example                         |
-|----------------|---------------------------------|
-| **Repository** | `qctrl/javascript-visualizer`   |
-| **Install**    | `npm install @qctrl/visualizer` |
-| **Import**     | `import @qctrl/visualizer;`     |
+| Type       | Example                         |
+|------------|---------------------------------|
+| Repository | `qctrl/javascript-visualizer`   |
+| Install    | `npm install @qctrl/visualizer` |
+| Import     | `import @qctrl/visualizer;`     |
 
-| Type           | Example                               |
-|----------------|---------------------------------------|
-| **Repository** | `qctrl/javascript-visualizer-react`   |
-| **Install**    | `npm install @qctrl/visualizer-react` |
-| **Import**     | `import @qctrl/visualizer-react;`     |
+| Type       | Example                               |
+|------------|---------------------------------------|
+| Repository | `qctrl/javascript-visualizer-react`   |
+| Install    | `npm install @qctrl/visualizer-react` |
+| Import     | `import @qctrl/visualizer-react;`     |
 
 ## Resources
 
