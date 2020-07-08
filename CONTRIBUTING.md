@@ -139,7 +139,7 @@ then, you SHOULD move to [First-party](#first-party).
 
 ## Naming conventions
 
-- **Repository** specifies the language
+- **Repository** specifies the framework or language (in that order)
 - **Install** implies the language (e.g. `pip` = Python, `npm` = JavaScript, `gem` = Ruby, etc.)
 - **Import** MAY negates the `-` (e.g. see [PEP 8 -- Style Guide for Python Code: Package and Module Names](https://www.python.org/dev/peps/pep-0008/#package-and-module-names))
 
@@ -165,9 +165,9 @@ then, you SHOULD move to [First-party](#first-party).
 
 | Type       | Example                               |
 |------------|---------------------------------------|
-| Repository | `qctrl/python-visualizer-django`      |
-| Install    | `pip install qctrl-visualizer-django` |
-| Import     | `import qctrlvisualizerdjango`        |
+| Repository | `qctrl/django-visualizer`             |
+| Install    | `pip install qctrl-django-visualizer` |
+| Import     | `import qctrldjangovisualizer`        |
 
 ### JavaScript examples
 
@@ -191,9 +191,9 @@ then, you SHOULD move to [First-party](#first-party).
 
 | Type       | Example                               |
 |------------|---------------------------------------|
-| Repository | `qctrl/javascript-visualizer-react`   |
-| Install    | `npm install @qctrl/visualizer-react` |
-| Import     | `import @qctrl/visualizer-react;`     |
+| Repository | `qctrl/react-visualizer`              |
+| Install    | `npm install @qctrl/react-visualizer` |
+| Import     | `import @qctrl/react-visualizer;`     |
 
 ## Resources
 
