@@ -13,6 +13,7 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 - [Documentation standards](#documentation-standards)
 - [Licensing standards](#licensing-standards)
 - [Coding standards](#coding-standards)
+- [Naming conventions](#naming-conventions)
 - [Resources](#resources)
 
 ## Submitting an issue
@@ -144,36 +145,53 @@ then, you SHOULD move to [First-party](#first-party).
 
 ### Python examples
 
+| Type           | Name                |
+|----------------|---------------------|
+| **Repository** | `qctrl/python`      |
 | **Repository** | `qctrl/python`      |
 | **Install**    | `pip install qctrl` |
 | **Import**     | `import qctrl`      |
 
+| Type           | Name                           |
+|----------------|--------------------------------|
 | **Repository** | `qctrl/python-api-client`      |
 | **Install**    | `pip install qctrl-api-client` |
 | **Import**     | `import qctrlapiclient`        |
 
+| Type           | Name                           |
+|----------------|--------------------------------|
 | **Repository** | `qctrl/python-visualizer`      |
 | **Install**    | `pip install qctrl-visualizer` |
 | **Import**     | `import qctrlvisualizer`       |
 
+| Type           | Name                                  |
+|----------------|---------------------------------------|
 | **Repository** | `qctrl/python-visualizer-django`      |
 | **Install**    | `pip install qctrl-visualizer-django` |
 | **Import**     | `import qctrlvisualizerdjango`        |
 
 ### JavaScript examples
 
+| Type           | Name                       |
+|----------------|----------------------------|
 | **Repository** | `qctrl/javascript`         |
 | **Install**    | `npm install @qctrl/qctrl` |
 | **Import**     | `import @qctrl/qctrl;`     |
 
+| Type           | Name                            |
+|----------------|---------------------------------|
 | **Repository** | `qctrl/javascript-api-client`   |
 | **Install**    | `npm install @qctrl/api-client` |
 | **Import**     | `import @qctrl/api-client;`     |
 
+| Type           | Name                            |
+|----------------|---------------------------------|
 | **Repository** | `qctrl/javascript-visualizer`   |
 | **Install**    | `npm install @qctrl/visualizer` |
 | **Import**     | `import @qctrl/visualizer;`     |
 
+| Type           | Name                                  |
+|----------------|---------------------------------------|
 | **Repository** | `qctrl/javascript-visualizer-react`   |
 | **Install**    | `npm install @qctrl/visualizer-react` |
 | **Import**     | `import @qctrl/visualizer-react;`     |
