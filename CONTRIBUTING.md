@@ -145,26 +145,25 @@ then, you SHOULD move to [First-party](#first-party).
 
 ### Python examples
 
-| Type           | Name                |
+| Type           | Example             |
 |----------------|---------------------|
-| **Repository** | `qctrl/python`      |
 | **Repository** | `qctrl/python`      |
 | **Install**    | `pip install qctrl` |
 | **Import**     | `import qctrl`      |
 
-| Type           | Name                           |
+| Type           | Example                        |
 |----------------|--------------------------------|
 | **Repository** | `qctrl/python-api-client`      |
 | **Install**    | `pip install qctrl-api-client` |
 | **Import**     | `import qctrlapiclient`        |
 
-| Type           | Name                           |
+| Type           | Example                        |
 |----------------|--------------------------------|
 | **Repository** | `qctrl/python-visualizer`      |
 | **Install**    | `pip install qctrl-visualizer` |
 | **Import**     | `import qctrlvisualizer`       |
 
-| Type           | Name                                  |
+| Type           | Example                               |
 |----------------|---------------------------------------|
 | **Repository** | `qctrl/python-visualizer-django`      |
 | **Install**    | `pip install qctrl-visualizer-django` |
@@ -172,25 +171,25 @@ then, you SHOULD move to [First-party](#first-party).
 
 ### JavaScript examples
 
-| Type           | Name                       |
+| Type           | Example                    |
 |----------------|----------------------------|
 | **Repository** | `qctrl/javascript`         |
 | **Install**    | `npm install @qctrl/qctrl` |
 | **Import**     | `import @qctrl/qctrl;`     |
 
-| Type           | Name                            |
+| Type           | Example                         |
 |----------------|---------------------------------|
 | **Repository** | `qctrl/javascript-api-client`   |
 | **Install**    | `npm install @qctrl/api-client` |
 | **Import**     | `import @qctrl/api-client;`     |
 
-| Type           | Name                            |
+| Type           | Example                         |
 |----------------|---------------------------------|
 | **Repository** | `qctrl/javascript-visualizer`   |
 | **Install**    | `npm install @qctrl/visualizer` |
 | **Import**     | `import @qctrl/visualizer;`     |
 
-| Type           | Name                                  |
+| Type           | Example                               |
 |----------------|---------------------------------------|
 | **Repository** | `qctrl/javascript-visualizer-react`   |
 | **Install**    | `npm install @qctrl/visualizer-react` |
