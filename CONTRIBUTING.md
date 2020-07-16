@@ -202,6 +202,18 @@ then, you MUST move to [First-party](#first-party).
 | Install    | `npm install @qctrl/react-visualizer` |
 | Import     | `import @qctrl/react-visualizer;`     |
 
+## Front End Standards
+
+### Bundlers
+
+We use [webpack](https://webpack.js.org/) for any application and [rollup](https://rollupjs.org/) for any library. Rollup specialises in [ESM](https://github.com/standard-things/esm) which is our native module of choice for libraries, however we should always provide a [UMD](https://github.com/umdjs/umd), [CommonJS](https://requirejs.org/docs/commonjs.html) bundle for compatability with all types of JavaScript applications.
+
+### Distribution
+
+Ensure that libraries are tagged via `yarn version <patch|minor|major`, this will automatically change the version based on [SemVer](https://semver.org/) in the `package.json`, `yarn.lock` and add a git tag. You can read more about `yarn version` [here](https://classic.yarnpkg.com/en/docs/cli/version/).
+
+We use [npmjs.com](https://www.npmjs.com) for our registry, our organisation can be found [here](https://www.npmjs.com/org/qctrl). All our artefacts are found here, scoped as `@qctrl`. All frontend code should publish artefacts to registry even if there is no consumer such as a customer facing application (like `app`), this means we have a history of binaries.
+
 ## Resources
 
 - [How to contribute to open source](https://opensource.guide/how-to-contribute/)
