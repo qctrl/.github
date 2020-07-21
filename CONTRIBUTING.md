@@ -144,7 +144,7 @@ then, you MUST move to [First-party](#first-party).
 
 - Spell variable names out in full using American English spelling (e.g. `optimized_pulse` or `optimizedPulse` and **NOT** `op`)
 - For variable names that are more than three words, use an acronym (e.g. `cpmg` and **NOT** `carr_purcell_meiboom_gill` or `carrPurcellMeiboomGill`)
-- For variable names that describe how many of an object there are, use `<object>_count` (e.g. `pulse_count`, not `number_of_pulses` or `pulses_count`)
+- For variable names that describe how many of an object there are, use `<object>_count` or `<object>Count` (e.g. `pulse_count` or `pulseCount` and **NOT** `number_of_pulses`, `numberOfPulses`, `pulses_count` or `pulsesCount`)
 
 ## Naming conventions
 
