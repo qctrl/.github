@@ -150,7 +150,11 @@ then, you MUST move to [First-party](#first-party).
 
 The [numpydoc](https://numpydoc.readthedocs.io/en/latest/format.html) standard is unopinionated and/or inconsistent in a small number of cases. We therefore adopt the following additional standards:
 
-- Place the leading triple quote of each docstring on its own line
+- Place the leading and final triple quotes of each docstring on their own lines, with no blank lines separating them from the contents, as follows:
+  ```
+  """
+  <contents>
+  """
 - Use single backticks when referring to a module, function, class, method, parameter, variable or attribute thereof; otherwise use double backticks (e.g. `` `np.array` ``, `` `int` ``, `` `parameter_1` ``, `` `CustomClass.attribute` ``, `` `CustomClass.method` ``, ` ``value_1*value_2`` `, ` ``function().result`` ` or ` ``List[int]`` `)
 
 ## Naming conventions
