@@ -148,7 +148,7 @@ then, you MUST move to [First-party](#first-party).
 
 ### numpydoc docstrings
 
-The [numpydoc](https://numpydoc.readthedocs.io/en/latest/format.html) standard is unopinionated and/or inconsistent in a small number of cases. We therefore adopt the following addition standards:
+The [numpydoc](https://numpydoc.readthedocs.io/en/latest/format.html) standard is unopinionated and/or inconsistent in a small number of cases. We therefore adopt the following additional standards:
 
 - Place the leading triple quote of each docstring on its own line
 - Use single backticks when referring to a module, function, class, method, parameter, variable or attribute thereof; otherwise use double backticks (e.g. `` `np.array` ``, `` `int` ``, `` `parameter_1` ``, `` `CustomClass.attribute` ``, `` `CustomClass.method` ``, ` ``value_1*value_2`` `, ` ``function().result`` ` or ` ``List[int]`` `)
