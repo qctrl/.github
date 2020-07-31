@@ -156,7 +156,7 @@ The [numpydoc](https://numpydoc.readthedocs.io/en/latest/format.html) standard i
   <contents>
   """
   ```
-- Use single backticks when referring to a module, function, class, method, parameter, variable or attribute thereof; otherwise use double backticks (e.g. `` `np.array` ``, `` `int` ``, `` `parameter_1` ``, `` `CustomClass.attribute` ``, `` `CustomClass.method` ``, ` ``value_1*value_2`` `, ` ``function().result`` ` or ` ``List[int]`` `)
+- Use single backticks when referring to a module, function, class, method, parameter, variable or attribute thereof; otherwise use double backticks (for example `` `np.array` ``, `` `int` ``, `` `parameter_1` ``, `` `CustomClass.attribute` ``, `` `CustomClass.method` ``, ` ``value_1*value_2`` `, ` ``function().result`` ` or ` ``List[int]`` `).
 
 ## Naming conventions
 
