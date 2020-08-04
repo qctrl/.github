@@ -127,7 +127,7 @@ When contributing code, bear in mind that Q-CTRL values the [Three Virtues](http
 
 | Third-party | Style                                                                                                          | Docstrings                                                        | Testing                       | Linting                           |
 |-------------|----------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------|-------------------------------|-----------------------------------|
-| Django      | [Django coding style](https://docs.djangoproject.com/en/dev/internals/contributing/writing-code/coding-style/) | [numpydoc](https://numpydoc.readthedocs.io/en/latest/format.html) | [pytest](https://pytest.org/) | [Pylint](https://www.pylint.org/) |
+| Django      | [Django coding style](https://docs.djangoproject.com/en/dev/internals/contributing/writing-code/coding-style/) | [numpydoc](https://numpydoc.readthedocs.io/en/latest/format.html)[[++](#numpydoc-docstrings)] | [pytest](https://pytest.org/) | [Pylint](https://www.pylint.org/) |
 | React       | [Prettier](https://prettier.io/)                                                                               | [JSDoc](http://usejsdoc.org/)                                     | [Jest](https://jestjs.io/)    | [ESLint](https://eslint.org/)     |
 
 ## Language standards
@@ -138,7 +138,7 @@ When contributing code, bear in mind that Q-CTRL values the [Three Virtues](http
 | HTML       | [Prettier](https://prettier.io/)                   | N/A                                                               | [HTMLProofer](https://github.com/gjtorikian/html-proofer/) | N/A                                                                        |
 | JavaScript | [Prettier](https://prettier.io/)                   | [JSDoc](http://usejsdoc.org/)                                     | [Jest](https://jestjs.io/)                                 | [ESLint](https://eslint.org/)                                              |
 | Markdown   | [Prettier](https://prettier.io/)                   | N/A                                                               | N/A                                                        | [Markdownlint](https://github.com/markdownlint/markdownlint/)              |
-| Python     | [PEP 8](https://www.python.org/dev/peps/pep-0008/) | [numpydoc](https://numpydoc.readthedocs.io/en/latest/format.html) | [pytest](https://pytest.org/)                              | [Pylint](https://www.pylint.org/)                                          |
+| Python     | [PEP 8](https://www.python.org/dev/peps/pep-0008/) | [numpydoc](https://numpydoc.readthedocs.io/en/latest/format.html)[[++](#numpydoc-docstrings)] | [pytest](https://pytest.org/)                              | [Pylint](https://www.pylint.org/)                                          |
 
 ## Q-CTRL coding standards
 
@@ -149,6 +149,18 @@ Unless prescribed otherwise by the framework or language (as described above), u
 - Spell variable names out in full using American English spelling (for example `optimized_pulse` or `optimizedPulse` and **NOT** `op`).
 - For variable names that are more than three words, use an acronym (for example `cpmg` and **NOT** `carr_purcell_meiboom_gill` or `carrPurcellMeiboomGill`).
 - For variable names that describe how many of an object there are, use `<object>_count` or `<object>Count` (for example `pulse_count` or `pulseCount` and **NOT** `number_of_pulses`, `numberOfPulses`, `pulses_count`, or `pulsesCount`).
+
+### numpydoc docstrings
+
+The [numpydoc](https://numpydoc.readthedocs.io/en/latest/format.html) standard is unopinionated and/or inconsistent in a small number of cases. We therefore adopt the following additional standards:
+
+- Place the leading and final triple quotes of each docstring on their own lines, with no blank lines separating them from the contents, as follows:
+  ```
+  """
+  <contents>
+  """
+  ```
+- Use single backticks when referring to a module, function, class, method, parameter, variable, or attribute thereof; otherwise use double backticks (for example `` `np.array` ``, `` `int` ``, `` `parameter_1` ``, `` `CustomClass.attribute` ``, `` `CustomClass.method` ``, ` ``value_1*value_2`` `, ` ``function().result`` `, or ` ``List[int]`` `).
 
 ## Naming conventions
 
