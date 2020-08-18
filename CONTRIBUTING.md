@@ -162,9 +162,9 @@ The [numpydoc](https://numpydoc.readthedocs.io/en/latest/format.html) standard i
   ```
 - Use single backticks when referring to a module, function, class, method, parameter, variable, or attribute thereof; otherwise use double backticks (for example `` `np.array` ``, `` `int` ``, `` `parameter_1` ``, `` `CustomClass.attribute` ``, `` `CustomClass.method` ``, ` ``value_1*value_2`` `, ` ``function().result`` `, or ` ``List[int]`` `).
 
-### Published content references
+### Citations
 
-When referencing published content, follow the [Physical Review style](https://cdn.journals.aps.org/files/styleguide-pr.pdf) (for example "A. Waldron, P. Judd, and V. Miller, *Physical Review Style and Notation Guide* (American Physical Society, 2011), p. 7." and **NOT** "Waldron, A. and Judd, P. eds., 1983. *Physical Review Style and Notation Guide*. American Physical Society.").
+When citing published content, follow the [Physical Review style](https://cdn.journals.aps.org/files/styleguide-pr.pdf) (for example "A. Waldron, P. Judd, and V. Miller, *Physical Review Style and Notation Guide* (American Physical Society, 2011), p. 7." and **NOT** "Waldron, A. and Judd, P. eds., 1983. *Physical Review Style and Notation Guide*. American Physical Society.").
 
 ## Naming conventions
 
