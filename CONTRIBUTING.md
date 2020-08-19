@@ -164,7 +164,7 @@ The [numpydoc](https://numpydoc.readthedocs.io/en/latest/format.html) standard i
 
 ### Citations
 
-When citing published content, follow the [Physical Review style](https://cdn.journals.aps.org/files/styleguide-pr.pdf) (for example "A. Waldron, P. Judd, and V. Miller, *Physical Review Style and Notation Guide* (American Physical Society, 2011), p. 7." and **NOT** "Waldron, A. and Judd, P. eds., 1983. *Physical Review Style and Notation Guide*. American Physical Society.").
+When citing published content, follow the Physical Review style, and include a link (preferably a DOI) where possible (for example "[A. Waldron, P. Judd, and V. Miller, *Physical Review Style and Notation Guide* (American Physical Society, 2011), p. 7.](https://cdn.journals.aps.org/files/styleguide-pr.pdf)" and **NOT** "Waldron, A. and Judd, P. eds., 1983. *Physical Review Style and Notation Guide*. American Physical Society.").
 
 ## Naming conventions
 
