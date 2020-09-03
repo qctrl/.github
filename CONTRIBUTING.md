@@ -164,20 +164,26 @@ The [numpydoc](https://numpydoc.readthedocs.io/en/latest/format.html) standard i
 
 ### GraphQL Docstrings
 
-In most cases we try and follow the Markdown syntax as specified by [CommonMark](http://commonmark.org/) which is the standard for  GraphQL docstrings. Unfortunately the CommonMark specification does not cover all of our use cases, as we use the docstrings to document our client-side functions and not just the API. We therefore have these additional custom specifications in place:
+In most cases we try and follow the Markdown syntax as specified by [CommonMark](http://commonmark.org/) which is the standard adopted and reccomended by GraphQL . Unfortunately the CommonMark specification does not cover all of our use cases, as we use the docstrings to document our client-side functions and not just the API. We therefore have these additional custom specifications in place:
 
-- Inline math needs to start with ``$` and end with a matching `$``:
+- ``Inline math needs to start with "`$" and end with a matching "$`" `` :
 ```
-`$$`
+`$E=mc^2$`
 ```
 
 - Math blocks are similair to code blocks, but require the language be set to "math":
-```
+````
  ```math
+ E=mc^2
  ```
-```
+````
 
 - Footnote referencing should use the following syntax instead of the CommonMark syntax:
+```
+This is my sentence with a footnote[^1].
+
+[^1]: My reference.
+```
 
 For more information and examples on how we use GraphQL docstrings for documenting core features and functions, follow the [link](https://github.com/qctrl/api2#writing-documentation-for-core-features-in-the-graphql-api) to the relevant section in the api2 documentation.
 
