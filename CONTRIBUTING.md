@@ -171,7 +171,7 @@ In most cases we try and follow the Markdown syntax as specified by [CommonMark]
 `$E=mc^2$`
 ```
 
-- Math blocks are similair to code blocks, but require the language be set to "math":
+- Math blocks are similair to code blocks, but require the language be set to `math`:
 ````
  ```math
  E=mc^2
