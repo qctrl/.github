@@ -134,7 +134,7 @@ When contributing code, bear in mind that Q-CTRL values the [Three Virtues](http
 
 | Language   | Style                                              | Docstrings                                                        | Testing                                                    | Linting                                                                    |
 |------------|----------------------------------------------------|-------------------------------------------------------------------|------------------------------------------------------------|----------------------------------------------------------------------------|
-| GraphQL    | [GraphQL Rules](https://graphql-rules.com/)        | N/A                                                               | N/A                                                        | [graphql-schema-linter](https://github.com/cjoudrey/graphql-schema-linter) |
+| GraphQL    | [GraphQL Rules](https://graphql-rules.com/)        | [CommonMark](https://commonmark.org/)[[++](#GraphQL-docstrings)] | N/A                                                        | [graphql-schema-linter](https://github.com/cjoudrey/graphql-schema-linter) |
 | HTML       | [Prettier](https://prettier.io/)                   | N/A                                                               | [HTMLProofer](https://github.com/gjtorikian/html-proofer/) | N/A                                                                        |
 | JavaScript | [Prettier](https://prettier.io/)                   | [JSDoc](http://usejsdoc.org/)                                     | [Jest](https://jestjs.io/)                                 | [ESLint](https://eslint.org/)                                              |
 | Markdown   | [Prettier](https://prettier.io/)                   | N/A                                                               | N/A                                                        | [Markdownlint](https://github.com/markdownlint/markdownlint/)              |
@@ -161,6 +161,27 @@ The [numpydoc](https://numpydoc.readthedocs.io/en/latest/format.html) standard i
   """
   ```
 - Use single backticks when referring to a module, function, class, method, parameter, variable, or attribute thereof; otherwise use double backticks (for example `` `np.array` ``, `` `int` ``, `` `parameter_1` ``, `` `CustomClass.attribute` ``, `` `CustomClass.method` ``, ` ``value_1*value_2`` `, ` ``function().result`` `, or ` ``List[int]`` `).
+
+### GraphQL Docstrings
+
+In most cases we try and follow the Markdown syntax as specified by [CommonMark](http://commonmark.org/) which is the standard for  GraphQL docstrings. Unfortunately the CommonMark specification does not cover all of our use cases, as we use the docstrings to document our client-side functions and not just the API. We therefore have these additional custom specifications in place:
+
+- Inline math needs to start with ``$` and end with a matching `$``:
+```
+`$$`
+```
+
+- Math blocks are similair to code blocks, but require the language be set to "math":
+```
+ ```math
+ ```
+```
+
+- Footnote referencing should use the following syntax instead of the CommonMark syntax:
+
+For more information and examples on how we use GraphQL docstrings for documenting core features and functions, follow the [link](https://github.com/qctrl/api2#writing-documentation-for-core-features-in-the-graphql-api) to the relevant section in the api2 documentation.
+
+
 
 ### Citations
 
