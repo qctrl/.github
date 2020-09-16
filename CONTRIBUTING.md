@@ -164,7 +164,7 @@ The [numpydoc](https://numpydoc.readthedocs.io/en/latest/format.html) standard i
 
 ### GraphQL Docstrings
 
-In most cases we try and follow the Markdown syntax as specified by [CommonMark](http://commonmark.org/) which is the standard adopted and recommended by GraphQL. Unfortunately the CommonMark specification does not cover all of our use cases, as we use the docstrings to document our client-side functions and not just the API. We therefore have these additional custom specifications in place:
+In most cases the [CommonMark](http://commonmark.org/) standard reccomended by GrapqhQL is followed. Unfortunately the specification is not comprehensive and does not cover all of our use cases, as we use the docstrings to document our client-side functions and not just the API. In these special cases there are additional custom specifications in place that extend the specification provided by CommonMark:
 
 - Inline math needs to start with `` `$ `` and end with `` $` ``:
 ```
@@ -184,10 +184,6 @@ This is my sentence with a footnote[^1].
 
 [^1]: My reference.
 ```
-
-For more information and examples on how we use GraphQL docstrings for documenting core features and functions in the api, follow the [link](https://github.com/qctrl/api2#writing-documentation-for-core-features-in-the-graphql-api) to the relevant section in the api2 documentation.
-
-
 
 ### Citations
 
