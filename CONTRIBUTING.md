@@ -165,7 +165,7 @@ The [numpydoc](https://numpydoc.readthedocs.io/en/latest/format.html) standard i
 
 ### GraphQL Docstrings
 
-In most cases the [CommonMark](http://commonmark.org/) standard recommended by GrapqhQL is followed. Unfortunately the specification is not comprehensive and does not cover all use cases, as the docstrings to document client-side functions and not just the API. In these special cases there are additional custom specifications in place that extend the specification provided by CommonMark:
+In most cases the [CommonMark](http://commonmark.org/) standard recommended by GrapqhQL is followed. Unfortunately the specification is not comprehensive and does not cover all use cases, as the docstrings can be used to document client-side functions and not just the API. In these special cases there are additional custom specifications in place that extend the specification provided by CommonMark:
 
 - Inline math needs to start with `` `$ `` and end with `` $` ``:
 ```
