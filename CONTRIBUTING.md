@@ -127,7 +127,7 @@ When contributing code, bear in mind that Q-CTRL values the [Three Virtues](http
 
 | Third-party | Style                                                                                                          | Docstrings                                                                                    | Testing                       | Linting                           |
 |-------------|----------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|-------------------------------|-----------------------------------|
-| Django      | [Django coding style](https://docs.djangoproject.com/en/dev/internals/contributing/writing-code/coding-style/) | [numpydoc](https://numpydoc.readthedocs.io/en/latest/format.html)[[++](#numpydoc-docstrings)] | [pytest](https://pytest.org/) | [Pylint](https://www.pylint.org/) |
+| Django      | [Django coding style](https://docs.djangoproject.com/en/dev/internals/contributing/writing-code/coding-style/) | [numpydoc](https://numpydoc.readthedocs.io/en/latest/format.html)[[++](#numpydoc)] | [pytest](https://pytest.org/) | [Pylint](https://www.pylint.org/) |
 | React       | [Prettier](https://prettier.io/)                                                                               | [JSDoc](http://usejsdoc.org/)                                                                 | [Jest](https://jestjs.io/)    | [ESLint](https://eslint.org/)     |
 
 ### Language coding standards
