@@ -139,7 +139,7 @@ When contributing code, bear in mind that Q-CTRL values the [Three Virtues](http
 | HTML       | [Prettier](https://prettier.io/)                         | N/A                                                                                            | [HTMLProofer](https://github.com/gjtorikian/html-proofer/) | N/A                                                                        |
 | JavaScript | [Prettier](https://prettier.io/)                         | [JSDoc](http://usejsdoc.org/)                                                                  | [Jest](https://jestjs.io/)                                 | [ESLint](https://eslint.org/)                                              |
 | Markdown   | [Prettier](https://prettier.io/)                         | N/A                                                                                            | N/A                                                        | [Markdownlint](https://github.com/markdownlint/markdownlint/)              |
-| Python     | [PEP 8](https://www.python.org/dev/peps/pep-0008/)       | [numpydoc](https://numpydoc.readthedocs.io/en/latest/format.html)[[++](#numpydoc-docstrings)]  | [pytest](https://pytest.org/)                              | [Pylint](https://www.pylint.org/)                                          |
+| Python     | [PEP 8](https://www.python.org/dev/peps/pep-0008/)       | [numpydoc](https://numpydoc.readthedocs.io/en/latest/format.html)[[++](#numpydoc)]  | [pytest](https://pytest.org/)                              | [Pylint](https://www.pylint.org/)                                          |
 
 ### Q-CTRL coding standards
 
