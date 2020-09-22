@@ -90,15 +90,15 @@ Q-CTRL projects have one of three types of licensing applied:
 1. Open source
 1. Unlicensed
 
-| Type        | Description                                                                                        | License                                                                                                                               |
-|-------------|----------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
+| Type        | Description                                                                                        | License                                                                                                                                    |
+|-------------|----------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
 | Commercial  | The software is developed and distributed by Q-CTRL and is commercial in nature                    | Q-CTRL Terms of service<br>[HTML](https://q-ctrl.com/terms) / [Text](https://q-ctrl.com/terms.txt)                                         |
 | Open source | The software is developed and distributed by Q-CTRL, is open source, and contributions are welcome | Apache License, Version 2.0<br>[HTML](http://www.apache.org/licenses/LICENSE-2.0) / [Text](http://www.apache.org/licenses/LICENSE-2.0.txt) |
-| Unlicensed  | The software is developed by Q-CTRL and is not distributed                                         | N/A                                                                                                                                   |
+| Unlicensed  | The software is developed by Q-CTRL and is not distributed                                         | N/A                                                                                                                                        |
 
 ## Coding standards
 
-When contributing code, bear in mind that Q-CTRL values the [Three Virtues](http://threevirtues.com/). Standards for coding style SHOULD be obtained from the following hierarchy in the order specified:
+When contributing code, bear in mind that Q-CTRL values the [Three Virtues](http://threevirtues.com/). Standards for coding style MUST be obtained from the following hierarchy in the order specified:
 
 1. [Third-party](#third-party)
 1. [Language](#language)
@@ -106,44 +106,44 @@ When contributing code, bear in mind that Q-CTRL values the [Three Virtues](http
 
 ### Third-party
 
-"Third-party" refers to the third-party software you are using and the corresponding [Third-party standards](#third-party-standards). For example, if you are using [Django](https://www.djangoproject.com/), you MUST use the [Django coding style](https://docs.djangoproject.com/en/dev/internals/contributing/writing-code/coding-style/). If any of the following conditions hold then you MUST move to [Language](#language):
+"Third-party" refers to the third-party software you are using and the corresponding [Third-party coding standards](#third-party-coding-standards). For example, if you are using [Django](https://www.djangoproject.com/), you MUST use the [Django coding style](https://docs.djangoproject.com/en/dev/internals/contributing/writing-code/coding-style/). If any of the following conditions hold then you MUST move to [Language](#language):
 
-1. You are not using third-party software.
-1. The third-party software does not specify a coding standard.
-1. The coding standard does not specify a rule (for example how to name variables).
+1. You are not using third-party software
+1. The third-party software does not specify a coding standard
+1. The coding standard does not specify a rule (for example how to name variables)
 
 ### Language
 
-"Language" refers to the language you are using and the corresponding [language standards](#language-standards). For example, if you are using [Python](https://www.python.org/), you MUST use the [PEP 8 -- Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/). If any of the following conditions hold then you MUST move to [First-party](#first-party):
+"Language" refers to the language you are using and the corresponding [language coding standards](#language-coding-standards). For example, if you are using [Python](https://www.python.org/), you MUST use the [PEP 8 -- Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/). If any of the following conditions hold then you MUST move to [First-party](#first-party):
 
-1. The language does not specify a coding standard.
-1. The coding standard does not specify a rule (for example how to name variables).
+1. The language does not specify a coding standard
+1. The coding standard does not specify a rule (for example how to name variables)
 
 ### First-party
 
 "First-party" refers to the [Q-CTRL coding standards](#q-ctrl-coding-standards). The Q-CTRL coding standards exist to specify standards that are not defined in the coding standards of the third-party software or language you are using.
 
-## Third-party standards
+### Third-party coding standards
 
-| Third-party | Style                                                                                                          | Docstrings                                                        | Testing                       | Linting                           |
-|-------------|----------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------|-------------------------------|-----------------------------------|
-| Django      | [Django coding style](https://docs.djangoproject.com/en/dev/internals/contributing/writing-code/coding-style/) | [numpydoc](https://numpydoc.readthedocs.io/en/latest/format.html)[[++](#numpydoc-docstrings)] | [pytest](https://pytest.org/) | [Pylint](https://www.pylint.org/) |
-| React       | [Prettier](https://prettier.io/)                                                                               | [JSDoc](http://usejsdoc.org/)                                     | [Jest](https://jestjs.io/)    | [ESLint](https://eslint.org/)     |
+| Third-party | Style                                                                                                          | Docstrings                                                                                    | Testing                       | Linting                           |
+|-------------|----------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|-------------------------------|-----------------------------------|
+| Django      | [Django coding style](https://docs.djangoproject.com/en/dev/internals/contributing/writing-code/coding-style/) | [numpydoc](https://numpydoc.readthedocs.io/en/latest/format.html)[[++](#numpydoc)] | [pytest](https://pytest.org/) | [Pylint](https://www.pylint.org/) |
+| React       | [Prettier](https://prettier.io/)                                                                               | [JSDoc](http://usejsdoc.org/)                                                                 | [Jest](https://jestjs.io/)    | [ESLint](https://eslint.org/)     |
 
-## Language standards
+### Language coding standards
 
-| Language   | Style                                                    | Docstrings                                                        | Testing                                                    | Linting                                                                    |
-|------------|----------------------------------------------------------|-------------------------------------------------------------------|------------------------------------------------------------|----------------------------------------------------------------------------|
-| Go         | [Effective Go](https://golang.org/doc/effective_go.html) | [Godoc](https://blog.golang.org/godoc)                            | [go test](https://golang.org/pkg/testing/)                 | [Golint](https://github.com/golang/lint)                                   |
-| GraphQL    | [GraphQL Rules](https://graphql-rules.com/)              | [CommonMark](https://commonmark.org/)[[++](#graphql-docstrings)] | N/A                                                        | [graphql-schema-linter](https://github.com/cjoudrey/graphql-schema-linter) |
-| HTML       | [Prettier](https://prettier.io/)                         | N/A                                                               | [HTMLProofer](https://github.com/gjtorikian/html-proofer/) | N/A                                                                        |
-| JavaScript | [Prettier](https://prettier.io/)                         | [JSDoc](http://usejsdoc.org/)                                     | [Jest](https://jestjs.io/)                                 | [ESLint](https://eslint.org/)                                              |
-| Markdown   | [Prettier](https://prettier.io/)                         | N/A                                                               | N/A                                                        | [Markdownlint](https://github.com/markdownlint/markdownlint/)              |
-| Python     | [PEP 8](https://www.python.org/dev/peps/pep-0008/)       | [numpydoc](https://numpydoc.readthedocs.io/en/latest/format.html)[[++](#numpydoc-docstrings)] | [pytest](https://pytest.org/)  | [Pylint](https://www.pylint.org/)                                          |
+| Language   | Style                                                    | Docstrings                                                                                     | Testing                                                    | Linting                                                                    |
+|------------|----------------------------------------------------------|------------------------------------------------------------------------------------------------|------------------------------------------------------------|----------------------------------------------------------------------------|
+| Go         | [Effective Go](https://golang.org/doc/effective_go.html) | [Godoc](https://blog.golang.org/godoc)                                                         | [go test](https://golang.org/pkg/testing/)                 | [Golint](https://github.com/golang/lint)                                   |
+| GraphQL    | [GraphQL Rules](https://graphql-rules.com/)              | [CommonMark](https://commonmark.org/)[[++](#graphql)]                               | N/A                                                        | [graphql-schema-linter](https://github.com/cjoudrey/graphql-schema-linter) |
+| HTML       | [Prettier](https://prettier.io/)                         | N/A                                                                                            | [HTMLProofer](https://github.com/gjtorikian/html-proofer/) | N/A                                                                        |
+| JavaScript | [Prettier](https://prettier.io/)                         | [JSDoc](http://usejsdoc.org/)                                                                  | [Jest](https://jestjs.io/)                                 | [ESLint](https://eslint.org/)                                              |
+| Markdown   | [Prettier](https://prettier.io/)                         | N/A                                                                                            | N/A                                                        | [Markdownlint](https://github.com/markdownlint/markdownlint/)              |
+| Python     | [PEP 8](https://www.python.org/dev/peps/pep-0008/)       | [numpydoc](https://numpydoc.readthedocs.io/en/latest/format.html)[[++](#numpydoc)]  | [pytest](https://pytest.org/)                              | [Pylint](https://www.pylint.org/)                                          |
 
-## Q-CTRL coding standards
+### Q-CTRL coding standards
 
-### Variable naming
+#### Variable naming
 
 Unless prescribed otherwise by the framework or language (as described above), use the following rules when naming variables:
 
@@ -151,9 +151,34 @@ Unless prescribed otherwise by the framework or language (as described above), u
 - For variable names that are more than three words, use an acronym (for example `cpmg` and **NOT** `carr_purcell_meiboom_gill` or `carrPurcellMeiboomGill`).
 - For variable names that describe how many of an object there are, use `<object>_count` or `<object>Count` (for example `pulse_count` or `pulseCount` and **NOT** `number_of_pulses`, `numberOfPulses`, `pulses_count`, or `pulsesCount`).
 
-### numpydoc docstrings
+#### Docstrings
 
-The [numpydoc](https://numpydoc.readthedocs.io/en/latest/format.html) standard is unopinionated and/or inconsistent in a small number of cases. We therefore adopt the following additional standards:
+##### GraphQL
+
+The [CommonMark](http://commonmark.org/) specification is unopinionated and/or inconsistent in a small number of cases. We therefore adopt the following additional standards.
+
+- Inline math MUST start with `` `$ `` and end with `` $` ``:
+```
+`$E=mc^2$`
+```
+
+- Block math MUST have the language set to `math`:
+````
+ ```math
+ E=mc^2
+ ```
+````
+
+- Footnote referencing MUST use the following syntax:
+```
+This is my sentence with a footnote[^1].
+
+[^1]: My reference.
+```
+
+##### numpydoc
+
+The [numpydoc](https://numpydoc.readthedocs.io/en/latest/format.html) standard is unopinionated and/or inconsistent in a small number of cases. We therefore adopt the following additional standards.
 
 - Place the leading and final triple quotes of each docstring on their own lines, with no blank lines separating them from the contents, as follows:
   ```
@@ -162,29 +187,6 @@ The [numpydoc](https://numpydoc.readthedocs.io/en/latest/format.html) standard i
   """
   ```
 - Use single backticks when referring to a module, function, class, method, parameter, variable, or attribute thereof; otherwise use double backticks (for example `` `np.array` ``, `` `int` ``, `` `parameter_1` ``, `` `CustomClass.attribute` ``, `` `CustomClass.method` ``, ` ``value_1*value_2`` `, ` ``function().result`` `, or ` ``List[int]`` `).
-
-### GraphQL docstrings
-
-In most cases the [CommonMark](http://commonmark.org/) standard recommended by GrapqhQL is followed. Unfortunately the specification is not comprehensive and does not cover all use cases, as the docstrings can be used to document client-side functions and not just the API. In these special cases there are additional custom specifications in place that extend the specification provided by CommonMark:
-
-- Inline math needs to start with `` `$ `` and end with `` $` ``:
-```
-`$E=mc^2$`
-```
-
-- Math blocks are similar to code blocks, but require the language to be set to `math`:
-````
- ```math
- E=mc^2
- ```
-````
-
-- Footnote referencing should use the following syntax instead of the CommonMark syntax:
-```
-This is my sentence with a footnote[^1].
-
-[^1]: My reference.
-```
 
 ### Citations
 
