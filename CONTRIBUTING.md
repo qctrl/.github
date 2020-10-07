@@ -150,6 +150,7 @@ Unless prescribed otherwise by the framework or language (as described above), u
 - Spell variable names out in full using American English spelling (for example `optimized_pulse` or `optimizedPulse` and **NOT** `op`).
 - For variable names that are more than three words, use an acronym (for example `cpmg` and **NOT** `carr_purcell_meiboom_gill` or `carrPurcellMeiboomGill`).
 - For variable names that describe how many of an object there are, use `<object>_count` or `<object>Count` (for example `pulse_count` or `pulseCount` and **NOT** `number_of_pulses`, `numberOfPulses`, `pulses_count`, or `pulsesCount`).
+- Capitalize only the first letter of acronyms in camelCase or PascalCase names (for example `QctrlApiException` or `tensorPwc` and **NOT** `QCTRLAPIException` or `tensorPWC`).
 
 #### Docstrings
 
