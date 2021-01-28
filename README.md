@@ -1,4 +1,4 @@
-# .github
+# Q-CTRL .github
 
 Community health files for the [@qctrl](https://github.com/qctrl) organization.
 
