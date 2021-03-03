@@ -1,4 +1,4 @@
-Fixes # .
+Addresses: (link to issue/ticket)
 
 Changes proposed in this pull request:
 
