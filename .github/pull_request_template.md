@@ -1,4 +1,4 @@
-Addresses: (link to issue/ticket)
+Addresses: https://q-ctrl.atlassian.net/browse/(ticket)
 
 Changes proposed in this pull request:
 
