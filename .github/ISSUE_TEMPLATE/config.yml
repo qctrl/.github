@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Contributing
+    url: https://github.com/qctrl/.github/blob/master/CONTRIBUTING.md
+    about: Guidelines for contributing to Q-CTRL projects.
+  - name: Code of conduct
+    url: https://github.com/qctrl/.github/blob/master/CODE_OF_CONDUCT.md
+    about: Contributor covenant code of conduct.
