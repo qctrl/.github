@@ -3,6 +3,15 @@ contact_links:
   - name: Contributing
     url: https://github.com/qctrl/.github/blob/master/CONTRIBUTING.md
     about: Guidelines for contributing to Q-CTRL projects.
-  - name: Code of conduct
+  - name: Code of Conduct
     url: https://github.com/qctrl/.github/blob/master/CODE_OF_CONDUCT.md
-    about: Contributor covenant code of conduct.
+    about: Code of conduct for contributing to Q-CTRL projects.
+  - name: Security
+    url: https://github.com/qctrl/.github/blob/master/SECURITY.md
+    about: Report a security vulnerability.
+  - name: Support
+    url: https://github.com/qctrl/.github/blob/master/SUPPORT.md
+    about: Get help and support.
+  - name: Contact
+    url: https://q-ctrl.com/contact
+    about: Contact Q-CTRL.
