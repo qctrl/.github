@@ -1,5 +1,5 @@
 ##### This file is generated automatically. DO NOT EDIT #####
-* @qctrl/support
+* @qctrl/q-ctrl
 
 .dockerignore @qctrl/devops-engineering
 .github/ @qctrl/devops-engineering
@@ -9,4 +9,4 @@ deployment/ @qctrl/devops-engineering
 docker* @qctrl/devops-engineering
 Docker* @qctrl/devops-engineering
 
-.github/README.md @qctrl/support
+.github/README.md @qctrl/q-ctrl
