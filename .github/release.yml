@@ -1,0 +1,19 @@
+changelog:
+  exclude:
+    labels:
+      - misc
+    authors:
+      - qctrl-devops
+  categories:
+    - title: Breaking changes
+      labels:
+        - breaking
+    - title: What's new
+      labels:
+        - feat
+    - title: Bug fixes
+      labels:
+        - fix
+    - title: Other changes
+      labels:
+        - "*"
