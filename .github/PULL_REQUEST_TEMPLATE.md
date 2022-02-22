@@ -1,4 +1,4 @@
-Addresses: https://q-ctrl.atlassian.net/browse/(ticket)
+Addresses: https://qctrl.atlassian.net/browse/(ticket)
 
 Changes proposed in this pull request:
 
