@@ -8,7 +8,7 @@
 
 ### Who we are
 
-We're an eclectic group of theoretical and experimental scientists, software and hardware technologists, and product and user experience designers. We embody [the three virtues](https://thethreevirtues.com/) and we ❤️ [standards](https://elements.q-ctrl.com/code).
+We're an eclectic group of theoretical and experimental scientists, software and hardware technologists, and product and user experience designers. We embody [the three virtues](https://thethreevirtues.com/) and we ❤️ [our standards](https://elements.q-ctrl.com/code).
 
 [**Meet the team**](https://github.com/orgs/qctrl/people)
 
@@ -27,6 +27,6 @@ We make things. Here are some of them:
 
 ### Join us
 
-Want to help? Check out our [open positions](https://q-ctrl.com/careers), and if you don't see what you're looking for, just [get in touch](https://q-ctrl.com/contact). We have offices in Sydney 🇦🇺, Los Angeles 🇺🇸 and Berlin 🇩🇪 and we're always looking for people as excited as we are about building the quantum future.
+Want to help? Check out our [open positions](https://q-ctrl.com/careers), and if you don't see what you're looking for, just [get in touch](https://q-ctrl.com/contact). We have offices in Sydney 🇦🇺, Los Angeles 🇺🇸, and Berlin 🇩🇪, and we're always looking for people as excited as we are about building the quantum future.
 
 [**Join the team**](https://q-ctrl.com/careers)
