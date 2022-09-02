@@ -1,6 +1,6 @@
 ## Hi there! We're Q-CTRL (kjuː kənˈtrəʊl), and we make quantum technology useful 👋
 
-![Q-CTRL: Make quantum technology useful](https://github.com/qctrl/.github/blob/master/profile/profile.jpg)
+![Q-CTRL: Make quantum technology useful](https://repository-images.githubusercontent.com/181764383/4e1f6da9-f991-4589-bc7d-f794a5b80b41)
 
 [**Learn more**](https://q-ctrl.com)
 
