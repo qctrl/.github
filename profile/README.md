@@ -8,7 +8,7 @@
 
 ### Who we are
 
-We're an eclectic group of theoretical and experimental scientists, software and hardware technologists, and product and user experience designers. We embody [the three virtues](https://thethreevirtues.com/) and we ❤️ [our standards](https://elements.q-ctrl.com/code).
+We're an eclectic group of theoretical and experimental scientists, software and hardware technologists, and product and user experience designers. We embody [the three virtues](https://thethreevirtues.com/) and we ❤️ [our standards](https://code.q-ctrl.com/).
 
 [**Meet the team**](https://github.com/orgs/qctrl/people)
 
