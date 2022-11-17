@@ -8,7 +8,7 @@ When contributing to Q-CTRL projects, always bear in mind that Q-CTRL values the
 
 As a contributor, you agree to abide by the terms of the projects specific license and our [code of conduct](https://github.com/qctrl/.github/blob/master/CODE_OF_CONDUCT.md).
 
-The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED",  "MAY", and "OPTIONAL" in this section are to be interpreted as described in [RFC 2119](https://tools.ietf.org/html/rfc2119).
+The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED",  "MAY", and "OPTIONAL" in this section are to be interpreted as described in [RFC 2119](https://www.ietf.org/rfc/rfc2119).
 
 ## Submitting an issue
 
