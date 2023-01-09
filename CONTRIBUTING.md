@@ -2,7 +2,7 @@
 
 ## Overview
 
-This guide to contributing to [Q-CTRL](https://q-ctrl.com/) projects is intended for all contributors - from external open source developers, to outside collaborators and, of course, members of the [@qctrl](https://github.com/qctrl) team.
+This guide to contributing to [Q-CTRL](https://q-ctrl.com/) projects is intended for all contributors—from external open source developers, to outside collaborators and, of course, members of the [@qctrl](https://github.com/qctrl) team.
 
 When contributing to Q-CTRL projects, always bear in mind that Q-CTRL values the [Three Virtues](https://thethreevirtues.com/).
 
