@@ -47,22 +47,22 @@ Note that:
 
 - We prefer squash merges from short-lived branches (for example `feature/ABC-123`) to long-lived branches (for example `master`).
 - If you're a member of the Q-CTRL team, you're responsible for merging your own pull requests once reviewed and approved.
-- The following table (extracted from [commitlint](https://github.com/conventional-changelog/commitlint/blob/c936401be64dfc82b2efb69e4e17060f4c9cc3a3/%40commitlint/config-conventional/index.js#L39) ) is a guide on how to choose a proper type for your pull requests/commit messages.
+- The following table (whose two left columns are extracted from [commitlint](https://github.com/conventional-changelog/commitlint/blob/c936401be64dfc82b2efb69e4e17060f4c9cc3a3/%40commitlint/config-conventional/index.js#L39) ) is a guide on how to choose a proper type for your pull requests/commit messages. The two columns on the right provide guidance on the type of release a commit triggers (major has precedence over minor, which has precendence over patch), and which section of the release notes each change should go in.
 
 ### Supported pull request types
 
-| Type       | Purpose                                                                                                    |
-| ---------- | ---------------------------------------------------------------------------------------------------------- |
-| `feat`     | A new feature                                                                                              |
-| `fix`      | A bug fix                                                                                                  |
-| `perf`     | A code change that improves performance                                                                    |
-| `refactor` | A code change that neither fixes a bug nor adds a feature                                                  |
-| `chore`    | Other changes that don't modify src or test files                                                          |
-| `revert`   | Reverts a previous commit                                                                                  |
-| `build`    | Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)        |
-| `ci`       | Changes to our CI configuration files and scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs)|
-| `docs`     | Documentation only changes                                                                                 |
-| `style`    | Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)     |
-| `test`     | Adding missing tests or correcting existing tests                                                          |
+| Type       | Purpose                                                                                                    | Type of release | Release notes section |
+| ---------- | ---------------------------------------------------------------------------------------------------------- | --------------- | -------------------------- |
+| `feat`     | A new feature                                                                                              | Minor           | What's new                 |
+| `fix`      | A bug fix                                                                                                  | Patch           | Bug fixes                  |
+| `perf`     | A code change that improves performance                                                                    | Patch           | What's new                 |
+| `refactor` | A code change that neither fixes a bug nor adds a feature                                                  | Patch           | What's new                 |
+| `chore`    | Other changes that don't modify src or test files                                                          | Patch           | What's new                 |
+| `revert`   | Reverts a previous commit                                                                                  | Patch           | Bug fixes                  |
+| `build`    | Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)        | Patch           | What's new                 |
+| `ci`       | Changes to our CI configuration files and scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs)| Patch           | What's new                 |
+| `docs`     | Documentation only changes                                                                                 | Patch           | don't add to release notes |
+| `style`    | Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)     | Patch           | don't add to release notes |
+| `test`     | Adding missing tests or correcting existing tests                                                          | Patch           | don't add to release notes |
 
 More information [about pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests).
