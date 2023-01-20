@@ -53,14 +53,14 @@ Note that:
 
 | Type       | Purpose                                                                                                    | Type of release | Release notes section        |
 | ---------- | ---------------------------------------------------------------------------------------------------------- | --------------- | ---------------------------- |
-| `feat`     | A new feature                                                                                              | Minor           | What's new                   |
+| `feat`     | A new feature                                                                                              | Minor           | New features                 |
 | `fix`      | A bug fix                                                                                                  | Patch           | Bug fixes                    |
-| `perf`     | A code change that improves performance                                                                    | Patch           | What's new                   |
-| `refactor` | A code change that neither fixes a bug nor adds a feature                                                  | Patch           | What's new                   |
-| `chore`    | Other changes that don't modify src or test files                                                          | Patch           | What's new                   |
-| `revert`   | Reverts a previous commit                                                                                  | Patch           | Bug fixes                    |
-| `build`    | Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)        | Patch           | What's new                   |
-| `ci`       | Changes to our CI configuration files and scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs)| Patch           | What's new                   |
+| `perf`     | A code change that improves performance                                                                    | Patch           | Improvements                 |
+| `refactor` | A code change that neither fixes a bug nor adds a feature                                                  | Patch           | (don't add to release notes) |
+| `chore`    | Other changes that don't modify src or test files                                                          | Patch           | (don't add to release notes) |
+| `revert`   | Reverts a previous commit                                                                                  | Patch           | Improvements                 |
+| `build`    | Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)        | Patch           | Improvements                 |
+| `ci`       | Changes to our CI configuration files and scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs)| Patch           | (don't add to release notes) |
 | `docs`     | Documentation only changes                                                                                 | Patch           | (don't add to release notes) |
 | `style`    | Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)     | Patch           | (don't add to release notes) |
 | `test`     | Adding missing tests or correcting existing tests                                                          | Patch           | (don't add to release notes) |
