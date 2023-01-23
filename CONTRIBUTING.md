@@ -65,11 +65,11 @@ Note that:
 | `style`    | Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)     | Patch           | (don't add to release notes) |
 | `test`     | Adding missing tests or correcting existing tests                                                          | Patch           | (don't add to release notes) |
 
-For `revert` commits, the release notes section in which it is included depends on the type of reverted commit and whether it has been released. 
+For `revert` commits, the type of release it leads to and the release notes section in which it is included depend on both the type of the reverted commit and whether it has been released.
 If the reverted commit hasn't been released yet (that is, it would be in the same release notes as the `revert` commit), then neither of the commits should be advertised in the release notes.
 Note that this might change the type of release, for instance, if the reverted commit was the only new feature or only breaking change in the release.
 If the reverted commit has already been included in a previous release, then the reverting commit should be classified on its own merit depending on its changes. 
-For example, if the reverted commit added a feature, the reverting commit would be a breaking change (leading to a new major release);
+For example, if the reverted commit added a feature, the reverting commit would be a breaking change (leading to a major release);
 if the reverted commit removed a feature, the reverting commit would be adding a new feature (leading to a minor release);
 and if the reverted commit wasn't advertised in its release notes, then the reverting commit shouldn't be advertised either.
 
