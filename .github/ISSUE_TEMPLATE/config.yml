@@ -1,10 +1,10 @@
 blank_issues_enabled: false
 contact_links:
   - name: Contributing
-    url: https://github.com/qctrl/.github/blob/master/CONTRIBUTING.md
+    url: https://code.q-ctrl.com/contributing
     about: Guidelines for contributing to Q-CTRL projects.
   - name: Code of Conduct
-    url: https://github.com/qctrl/.github/blob/master/CODE_OF_CONDUCT.md
+    url: https://code.q-ctrl.com/code-of-conduct
     about: Code of conduct for contributing to Q-CTRL projects.
   - name: Security
     url: https://github.com/qctrl/.github/blob/master/SECURITY.md
