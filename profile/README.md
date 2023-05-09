@@ -18,10 +18,12 @@ We're an eclectic group of theoretical and experimental scientists, software and
 
 We make things. Here are some of them:
 
-- [**Black Opal**](https://q-ctrl.com/black-opal) - the first interactive quantum computing learning platform.
-- [**Boulder Opal**](https://q-ctrl.com/boulder-opal) - Quantum control infrastructure software for R&D professionals building the future.
-- [**Fire Opal**](https://q-ctrl.com/fire-opal) - Simple and powerful software for algorithm developers and end users to extend the reach of quantum computers.
-- [**Open Controls**](https://q-ctrl.com/open-controls) - An open-source Python package that makes it easy to create and deploy established error-robust quantum control protocols from the open literature.
+- [Black Opal](https://q-ctrl.com/black-opal): **Start learning quantum computing**. Upskill for the quantum era and empower your team with the best edtech solution for individuals and enterprises.
+- [Fire Opal](https://q-ctrl.com/fire-opal): **Find true value from quantum algorithms**. Gain >1,000X performance improvement on real hardware and reduce compute costs >100X with automated error suppression.
+- [Boulder Opal](https://q-ctrl.com/boulder-opal): **Build the quantum platforms of the future**. Everything you need to automate and optimize quantum hardware performance at scale.
+- [Embedded](https://q-ctrl.com/embedded): **Unleash latent hardware performance**. Deliver more value to your customers with fully integrated performance management for quantum computing platforms.
+
+[**Find out more**](https://q-ctrl.com/products)
 
 ---
 
@@ -30,3 +32,5 @@ We make things. Here are some of them:
 Want to help? Check out our [open positions](https://q-ctrl.com/careers), and if you don't see what you're looking for, just [get in touch](https://q-ctrl.com/contact). We have offices in Sydney 🇦🇺, Los Angeles 🇺🇸, and Berlin 🇩🇪, and we're always looking for people as excited as we are about building the quantum future.
 
 [**Join the team**](https://q-ctrl.com/careers)
+
+
