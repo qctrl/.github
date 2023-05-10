@@ -32,5 +32,3 @@ We make things. Here are some of them:
 Want to help? Check out our [open positions](https://q-ctrl.com/careers), and if you don't see what you're looking for, just [get in touch](https://q-ctrl.com/contact). We have offices in Sydney 🇦🇺, Los Angeles 🇺🇸, and Berlin 🇩🇪, and we're always looking for people as excited as we are about building the quantum future.
 
 [**Join the team**](https://q-ctrl.com/careers)
-
-
