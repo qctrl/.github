@@ -19,7 +19,7 @@ We're an eclectic group of theoretical and experimental scientists, software and
 We make things. Here are some of them:
 
 - [Black Opal](https://q-ctrl.com/black-opal): **Start learning quantum computing**. Upskill for the quantum era and empower your team with the best edtech solution for individuals and enterprises.
-- [Fire Opal](https://q-ctrl.com/fire-opal): **Find true value from quantum algorithms**. Gain >1,000X performance improvement on real hardware and reduce compute costs >100X with automated error suppression.
+- [Fire Opal](https://q-ctrl.com/fire-opal): **Find true value from quantum algorithms**. Gain >1,000× performance improvement on real hardware and reduce compute costs >100× with automated error suppression.
 - [Boulder Opal](https://q-ctrl.com/boulder-opal): **Build the quantum platforms of the future**. Everything you need to automate and optimize quantum hardware performance at scale.
 - [Embedded](https://q-ctrl.com/embedded): **Unleash latent hardware performance**. Deliver more value to your customers with fully integrated performance management for quantum computing platforms.
 
