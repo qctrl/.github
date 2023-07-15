@@ -1,6 +1,6 @@
-# Security policy
+# Security
 
-The Q-CTRL Security policy can be found on the Q-CTRL website by visiting https://q-ctrl.com/security.
+For information about security at Q-CTRL, visit the Q-CTRL Trust website located at https://trust.q-ctrl.com/.
 
 ## Supported versions
 
