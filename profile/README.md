@@ -20,15 +20,24 @@ We are a product-led, quantum control infrastructure software company solving re
 
 Products for everyone: Whether you are a newcomer, an enterprise user, or a hardware team, we make quantum technology useful for you - all through software.
 
-- [Black Opal](https://q-ctrl.com/black-opal): Start learning quantum computing.
+- [**Black Opal**](https://q-ctrl.com/black-opal): Start learning quantum computing.
+
   Upskill for the quantum era and empower your team with the best edtech solution for individuals and enterprises.
-- [Fire Opal](https://q-ctrl.com/fire-opal): Find true value from quantum algorithms.
+
+- [**Fire Opal**](https://q-ctrl.com/fire-opal): Find true value from quantum algorithms.
+
   Gain >1,000X performance improvement on real hardware and reduce compute costs >100X with automated error suppression.
-- [Boulder Opal](https://q-ctrl.com/boulder-opal): Build the quantum platforms of the future.
+
+- [**Boulder Opal**](https://q-ctrl.com/boulder-opal): Build the quantum platforms of the future.
+
   The world’s first and most powerful design-and-test EDA for the quantum era.
-- [Q-CTRL Embedded](https://q-ctrl.com/q-ctrl-embedded): Unleash latent hardware performance.
+
+- [**Q-CTRL Embedded**](https://q-ctrl.com/q-ctrl-embedded): Unleash latent hardware performance.
+
   Deliver more value to your customers with fully integrated performance management for quantum computing platforms.
-- [Q-CTRL Sensing](https://q-ctrl.com/q-ctrl-sensing): Detect the undetectable.
+
+- [**Q-CTRL Sensing**](https://q-ctrl.com/q-ctrl-sensing): Detect the undetectable.
+
   Breakthrough quantum sensing solutions for defense and industry.
 
 [**Find out more**](https://q-ctrl.com/products)
