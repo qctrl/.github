@@ -26,7 +26,7 @@ Products for everyone: Whether you are a newcomer, an enterprise user, or a hard
 
 - [**Fire Opal**](https://q-ctrl.com/fire-opal): Find true value from quantum algorithms.
 
-  Gain >1,000× performance improvement on real hardware and reduce compute costs >100X with automated error suppression.
+  Gain >1,000× performance improvement on real hardware and reduce compute costs >100× with automated error suppression.
 
 - [**Boulder Opal**](https://q-ctrl.com/boulder-opal): Build the quantum platforms of the future.
 
