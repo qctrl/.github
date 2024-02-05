@@ -46,6 +46,6 @@ Products for everyone: Whether you are a newcomer, an enterprise user, or a hard
 
 ### Join us
 
-Want to help? Check out our [open positions](https://q-ctrl.com/careers), and if you don't see what you're looking for, just [get in touch](https://q-ctrl.com/contact). We have offices in Sydney 🇦🇺, Los Angeles 🇺🇸, Berlin 🇩🇪, and the UK 🇬🇧, and we're always looking for people as excited as we are about building the quantum future.
+Want to help? Check out our [open positions](https://q-ctrl.com/careers), and if you don't see what you're looking for, just [get in touch](https://q-ctrl.com/contact). We have offices in Sydney 🇦🇺, Los Angeles 🇺🇸, Berlin 🇩🇪, and London 🇬🇧, and we're always looking for people as excited as we are about building the quantum future.
 
 [**Join the team**](https://q-ctrl.com/careers)
