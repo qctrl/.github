@@ -30,7 +30,7 @@ Products for everyone: Whether you are a newcomer, an enterprise user, or a hard
 
 - [**Boulder Opal**](https://q-ctrl.com/boulder-opal): Build the quantum platforms of the future.
 
-  The world’s first and most powerful design-and-test EDA for the quantum era.
+  The world's first and most powerful design-and-test EDA for the quantum era.
 
 - [**Q-CTRL Embedded**](https://q-ctrl.com/q-ctrl-embedded): Unleash latent hardware performance.
 
