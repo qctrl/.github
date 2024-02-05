@@ -18,7 +18,7 @@ We are a product-led, quantum control infrastructure software company solving re
 
 ### What we do
 
-Products for everyone: Whether you are a newcomer, an enterprise user, or a hardware team, we make quantum technology useful for you - all through software.
+Products for everyone: Whether you are a newcomer, an enterprise user, or a hardware team, we make quantum technology useful for you—all through software.
 
 - [**Black Opal**](https://q-ctrl.com/black-opal): Start learning quantum computing.
 
