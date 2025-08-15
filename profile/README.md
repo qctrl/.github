@@ -2,7 +2,7 @@
 
 Q-CTRL is using control to solve the hardest problems facing quantum technology, improving hardware performance and accelerating pathways to useful quantum computers and sensors. Through our professionally developed tools, we put our deep expertise in quantum control into your hands.
 
-![Q-CTRL: Make quantum technology useful](https://repository-images.githubusercontent.com/181764383/4e1f6da9-f991-4589-bc7d-f794a5b80b41)
+![github-banner](https://github.com/user-attachments/assets/c1cbf97c-a96a-4c45-8cfe-b644ffc1a403)
 
 [**Learn more >**](https://q-ctrl.com)
 
