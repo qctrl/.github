@@ -4,6 +4,8 @@
 
 Our solutions optimize performance across quantum computing and quantum sensing, and are integrated by leading hardware providers like IBM, Rigetti, and more. With applications across defense, research, and industry, we are accelerating the path to quantum advantage worldwide.
 
+![Q-CTRL is a global leader in quantum technology](./lab-collab.png)
+
 [**Learn more >**](https://q-ctrl.com)
 
 ---
