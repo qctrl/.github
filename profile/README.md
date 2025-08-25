@@ -12,7 +12,7 @@ Our solutions optimize performance across quantum computing and quantum sensing,
 
 ## Who we are
 
-We are a global team of scientists, engineers, designers, and operators building the future of quantum technology. We combine deep technical expertise with a startup mindset to deliver real impact through quantum innovation. At Q-CTRL, one of our core [values](https://q-ctrl.com/careers) is to Be Revered. Our work is underpinned by robust [standards](https://code.q-ctrl.com) and by embracing the three great [virtues](https://code.q-ctrl.com/contributing#three-virtues) of a programmer: Laziness, Impatience, Hubris.
+We are a global team of scientists, engineers, designers, and operators building the future of quantum technology. We combine deep technical expertise with a startup mindset to deliver real impact through quantum innovation. At Q-CTRL, one of our core [values](https://q-ctrl.com/careers) is to Be Revered. Our work is underpinned by robust [standards](https://code.q-ctrl.com), and by embracing the [three virtues](https://code.q-ctrl.com/contributing#three-virtues) .
 
 
 [**Meet the team >**](https://github.com/orgs/qctrl/people)
@@ -29,8 +29,8 @@ We develop AI-powered infrastructure software that makes quantum technologies us
 
 ## Join us
 
-At Q-CTRL, you’ll do meaningful work that drives real impact. You’ll help solve the hardest challenges in quantum technology and apply it to tackle the hardest problems across computing, navigation, and defense.
-We’re building a global team committed to making quantum technology truly useful. With offices in Sydney, Los Angeles, San Francisco, Oxford, and Berlin, your contributions will help shape a technology that defines the century. 
+At Q-CTRL, you will do meaningful work that drives real impact. You will help solve the hardest challenges in quantum technology and apply it to tackle the hardest problems across computing, navigation, and defense.
+We are building a global team committed to making quantum technology truly useful. With offices in Sydney, Los Angeles, San Francisco, Oxford, and Berlin, your contributions will help shape a technology that defines the century. 
 
 
 [**Join the team >**](https://q-ctrl.com/careers)
