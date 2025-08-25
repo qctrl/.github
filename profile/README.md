@@ -1,8 +1,8 @@
 # Make quantum technology useful
 
-Q-CTRL is using control to solve the hardest problems facing quantum technology, improving hardware performance and accelerating pathways to useful quantum computers and sensors. Through our professionally developed tools, we put our deep expertise in quantum control into your hands.
+**Q-CTRL is a global leader in quantum technology, delivering AI-powered infrastructure software that makes quantum systems more stable, reliable, and useful.**
 
-![Q-CTRL: The future of quantum technology is AI-powered](https://github.com/user-attachments/assets/02ffe10a-ecf3-4a26-aba3-ebf726e70a2e)
+Our solutions optimize performance across quantum computing and quantum sensing, and are integrated by leading hardware providers like IBM, Rigetti, and more. With applications across defense, research, and industry, we are accelerating the path to quantum advantage worldwide.
 
 [**Learn more >**](https://q-ctrl.com)
 
@@ -10,15 +10,16 @@ Q-CTRL is using control to solve the hardest problems facing quantum technology,
 
 ## Who we are
 
-We're a product-led, quantum infrastructure software company solving real-world problems. An eclectic group of theoretical and experimental scientists, software and hardware technologists, and product and user experience designers, we embody the [three virtues](https://thethreevirtues.com) and we ❤️ [our standards](https://code.q-ctrl.com).
+We are a global team of scientists, engineers, designers, and operators building the future of quantum technology. We combine deep technical expertise with a startup mindset to deliver real impact through quantum innovation. At Q-CTRL, one of our core [values](https://q-ctrl.com/careers) is to Be Revered. Our work is underpinned by robust [standards](https://code.q-ctrl.com) and by embracing the three great [virtues](https://code.q-ctrl.com/contributing#three-virtues) of a programmer: Laziness, Impatience, Hubris.
 
-[**Meet the team >**](https://github.com/orgs/qctrl/people)
+
+[**Find out more >**](https://github.com/orgs/qctrl/people)
 
 ---
 
 ## What we do
 
-We're building a new class of AI-powered infrastructure software to control quantum systems with precision beyond human reach. Backed by pioneering research and real-world demonstrations, we're leading the charge in AI for quantum - both computing and sensing. This convergence unlocks a powerful cycle where AI enhances quantum, and quantum powers next-gen AI.
+We develop AI-powered infrastructure software that makes quantum technologies useful. Our tools solve mission-critical challenges in computing, navigation, and defense by improving the performance, stability, and usability of quantum computers and quantum sensors. We also develop software-ruggedized quantum sensing hardware. Discover our products and learn more about our pioneering work in [AI for quantum](https://q-ctrl.com/our-work/ai-for-quantum).
 
 [**Find out more >**](https://q-ctrl.com/products)
 
@@ -26,6 +27,8 @@ We're building a new class of AI-powered infrastructure software to control quan
 
 ## Join us
 
-Want to help? Check out our [open positions](https://q-ctrl.com/careers), and if you don't see what you're looking for, just [get in touch](https://q-ctrl.com/contact). We have offices in Sydney 🇦🇺, Los Angeles 🇺🇸, San Francisco 🇺🇸, Berlin 🇩🇪, and Oxford 🇬🇧, and we're always looking for people as excited as we are about building the quantum future.
+At Q-CTRL, you’ll do meaningful work that drives real impact. You’ll help solve the hardest challenges in quantum technology and apply it to tackle the hardest problems across computing, navigation, and defense.
+We’re building a global team committed to making quantum technology truly useful. With offices in Sydney, Los Angeles, San Francisco, Oxford, and Berlin, your contributions will help shape a technology that defines the century. 
+
 
 [**Join the team >**](https://q-ctrl.com/careers)
