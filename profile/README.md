@@ -29,7 +29,7 @@ We develop AI-powered infrastructure software that makes quantum technologies us
 
 ## Join us
 
-At Q-CTRL, you’ll do meaningful work that drives real impact. You’ll help solve the hardest challenges in quantum technology and apply it to tackle the hardest problems across computing, navigation, and defense.
+At Q-CTRL, you will do meaningful work that drives real impact. You will help solve the hardest challenges in quantum technology and apply it to tackle the hardest problems across computing, navigation, and defense.
 We’re building a global team committed to making quantum technology truly useful. With offices in Sydney, Los Angeles, San Francisco, Oxford, and Berlin, your contributions will help shape a technology that defines the century. 
 
 
