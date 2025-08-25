@@ -15,7 +15,7 @@ Our solutions optimize performance across quantum computing and quantum sensing,
 We are a global team of scientists, engineers, designers, and operators building the future of quantum technology. We combine deep technical expertise with a startup mindset to deliver real impact through quantum innovation. At Q-CTRL, one of our core [values](https://q-ctrl.com/careers) is to Be Revered. Our work is underpinned by robust [standards](https://code.q-ctrl.com) and by embracing the three great [virtues](https://code.q-ctrl.com/contributing#three-virtues) of a programmer: Laziness, Impatience, Hubris.
 
 
-[**Find out more >**](https://github.com/orgs/qctrl/people)
+[**Meet the team >**](https://github.com/orgs/qctrl/people)
 
 ---
 
