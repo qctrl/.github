@@ -1,6 +1,6 @@
 # Security
 
-For information about security at Q-CTRL, visit the Q-CTRL Trust website located at https://trust.q-ctrl.com/.
+For information about security at Q-CTRL, visit https://q-ctrl.com/security.
 
 ## Supported versions
 
