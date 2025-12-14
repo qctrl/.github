@@ -4,7 +4,9 @@ For information about security at Q-CTRL, visit https://q-ctrl.com/security.
 
 ## Supported versions
 
-For information about which versions of a Q-CTRL project are currently being supported with security updates, visit the Q-CTRL Documentation website located at https://docs.q-ctrl.com/ and navigate to the project's home page.
+We provide security updates and support only for the latest released versions of our product packages. To ensure you receive the latest fixes and improvements, please upgrade to the most recent versions published on PyPI for [Fire Opal](https://pypi.org/project/fire-opal/) and [Boulder Opal](https://pypi.org/project/boulder-opal/).
+
+Change logs for each release are available in our documentation: [Fire Opal](https://docs.q-ctrl.com/fire-opal/changelog) and [Boulder Opal](https://docs.q-ctrl.com/boulder-opal/changelog).
 
 ## Reporting a vulnerability
 
